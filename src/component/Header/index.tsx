@@ -1,4 +1,5 @@
 import * as React from "react";
+import ModalWindow from "../ModalWindow";
 
 const Header: React.FC = () => {
   const personalData: Array<String> = ["身長", "体重", "BMI"];
@@ -15,13 +16,12 @@ const Header: React.FC = () => {
           />
         </div>
         <div>
-          {" "}
           <select>
             {personalData.map(n => (
               <option>{n}</option>
             ))}
           </select>
-          <button type="button">+</button>
+          <ModalWindow />
         </div>
       </form>
     </div>
