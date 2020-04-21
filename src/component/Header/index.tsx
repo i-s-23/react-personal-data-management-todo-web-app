@@ -1,19 +1,19 @@
 import * as React from "react";
-import ModalWindow from "../ModalWindow";
 import { useState } from "react";
+import ModalWindow from "../ModalWindow";
 
 export interface personalDataVo {
-  name: String;
-  birthday: String;
-  height: Number;
-  weight: Number;
-  bmi: Number;
+  name: string;
+  birthday: string;
+  height: number;
+  weight: number;
+  bmi: number;
 }
 
 const Header: React.FC = () => {
-  const [humanDataArray, setHumanDataArray] =
-    useState < Array<personalDataVo>([]);
-  const personalData: Array<String> = ["身長", "体重", "BMI"];
+  // const [humanDataArray, setHumanDataArray] =
+  //   useState < Array<personalDataVo>([]);
+  const personalData: Array<string> = ["身長", "体重", "BMI"];
   const [modalIsOpen, setModalIsOpen] = useState(false);
   const humanData: Array<personalDataVo> = [
     {
@@ -21,9 +21,18 @@ const Header: React.FC = () => {
       birthday: "2000年11月25日",
       height: 180,
       weight: 70,
-      bmi: 20.5,
-    },
+      bmi: 20.5
+    }
   ];
+
+  const handleModalClose = (val: boolean): void => {
+    setModalIsOpen(false);
+  };
+
+  const handleModalConfirm = (val: boolean): void => {
+    setModalIsOpen(false);
+    console.log(props.name);
+  };
 
   return (
     <div>
@@ -38,19 +47,23 @@ const Header: React.FC = () => {
         </div>
         <div>
           <select>
-            {personalData.map((n) => (
+            {personalData.map((n: String) => (
               <option>{n}</option>
             ))}
           </select>
           <button type="button" onClick={(): void => setModalIsOpen(true)}>
             +
           </button>
-          <ModalWindow />
+          <ModalWindow
+            modalIsOpen={modalIsOpen}
+            handleModalClose={handleModalClose}
+            handleModalConfirm={handleModalConfirm}
+          />
         </div>
       </form>
-      {humanDataArray.map((h: personalDataVo) => {
+      {/* {humanDataArray.map((h: personalDataVo) => {
         return <div>{h.name}</div>;
-      })}
+      })} */}
     </div>
   );
 };
