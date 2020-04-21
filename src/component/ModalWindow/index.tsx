@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import Modal from "react-modal";
+import InputLists from "../InptLists";
 
 const customStyles = {
   content: {
@@ -8,28 +9,32 @@ const customStyles = {
     right: "auto",
     bottom: "auto",
     marginRight: "-50%",
-    transform: "translate(-50%, -50%)"
-  }
+    transform: "translate(-50%, -50%)",
+  },
 };
 
-Modal.setAppElement("#root");
-const ModalWindow: React.FC = () => {
-  const [modalIsOpen, setModalIsOpen] = useState(false);
+interface Props {
+  modalIsOpen: boolean;
+  handleModalClose: (value: boolean) => void;
+  handleModalConfirm: (value: boolean) => void;
+}
 
+Modal.setAppElement("#root");
+const ModalWindow: React.FC<Props> = (props: Props) => {
   return (
     <div>
-      <button type="button" onClick={(): void => setModalIsOpen(true)}>
-        +
-      </button>
       <Modal
-        isOpen={modalIsOpen}
-        onRequestClose={(): void => setModalIsOpen(false)}
+        isOpen={props.modalIsOpen}
+        onRequestClose={(): void => props.handleModalClose(false)}
         style={customStyles}
         contentLabel="Example Modal"
       >
         <h2> ModalWindow </h2>
-        <div>Opend</div>
-        <button type="button" onClick={(): void => setModalIsOpen(false)}>
+        <InputLists />
+        <button
+          type="button"
+          onClick={(): void => props.handleModalConfirm(false)}
+        >
           登録
         </button>
       </Modal>
