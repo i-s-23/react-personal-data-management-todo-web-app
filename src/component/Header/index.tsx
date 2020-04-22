@@ -1,5 +1,4 @@
-import * as React from "react";
-import { useState } from "react";
+import React, { useState } from "react";
 import ModalWindow from "../ModalWindow";
 
 export interface personalDataVo {
@@ -11,8 +10,6 @@ export interface personalDataVo {
 }
 
 const Header: React.FC = () => {
-  // const [humanDataArray, setHumanDataArray] =
-  //   useState < Array<personalDataVo>([]);
   const personalData: Array<string> = ["身長", "体重", "BMI"];
   const [modalIsOpen, setModalIsOpen] = useState(false);
   const humanData: Array<personalDataVo> = [
@@ -22,8 +19,24 @@ const Header: React.FC = () => {
       height: 180,
       weight: 70,
       bmi: 20.5
+    },
+    {
+      name: "佐藤さん",
+      birthday: "2011年12月25日",
+      height: 170,
+      weight: 80,
+      bmi: 10.5
+    },
+    {
+      name: "吉田さん",
+      birthday: "2011年12月25日",
+      height: 170,
+      weight: 80,
+      bmi: 10.5
     }
   ];
+
+  const [humanDataDisp, sethumanDataDisp] = useState(humanData);
 
   const handleModalClose = (val: boolean): void => {
     setModalIsOpen(false);
@@ -34,6 +47,28 @@ const Header: React.FC = () => {
     console.log(props.name);
   };
 
+  const searchName = (searchWord: string | number): void => {
+    sethumanDataDisp(
+      humanData.filter(
+        human =>
+          searchWord === human.name ||
+          searchWord === human.birthday ||
+          Number(searchWord) === human.height ||
+          Number(searchWord) === human.weight ||
+          Number(searchWord) === human.bmi
+      )
+    );
+
+    if (searchWord === "") {
+      sethumanDataDisp(humanData);
+    }
+  };
+
+  const deleteHumanData = (human: personalDataVo): void => {
+    const newHumanData = humanDataDisp.filter(h => h !== human);
+    sethumanDataDisp(newHumanData);
+  };
+
   return (
     <div>
       <form>
@@ -41,8 +76,7 @@ const Header: React.FC = () => {
           <input
             className="form-control"
             id="formEventTitle"
-            value=""
-            // onChange={e => searchName(e.target.value)}
+            onChange={(e): void => searchName(e.target.value)}
           />
         </div>
         <div>
@@ -61,9 +95,27 @@ const Header: React.FC = () => {
           />
         </div>
       </form>
-      {/* {humanDataArray.map((h: personalDataVo) => {
-        return <div>{h.name}</div>;
-      })} */}
+      <form>
+        {humanDataDisp.map((human: personalDataVo) => {
+          return (
+            <div>
+              <div>
+                {human.name}　
+                <button
+                  type="button"
+                  onClick={(): void => deleteHumanData(human)}
+                >
+                  -
+                </button>
+              </div>
+              <div>生年月日　{human.birthday}</div>
+              <div>身長　{human.height}</div>
+              <div>体重　{human.weight}</div>
+              <div>BMI　{human.bmi}</div>
+            </div>
+          );
+        })}
+      </form>
     </div>
   );
 };
