@@ -33,6 +33,13 @@ const Header: React.FC = () => {
       height: 170,
       weight: 80,
       bmi: 10.5
+    },
+    {
+      name: "石田さん",
+      birthday: "2009年12月29日",
+      height: 198,
+      weight: 40,
+      bmi: 9.5
     }
   ];
 
@@ -45,6 +52,19 @@ const Header: React.FC = () => {
   const handleModalConfirm = (val: boolean): void => {
     setModalIsOpen(false);
     console.log(props.name);
+  };
+
+  const sortHumanData = (sortCategory: string): void => {
+    const newHumanData = humanDataDisp.sort((a, b) => {
+      if (sortCategory === "身長") {
+        return a.height - b.height;
+      }
+      if (sortCategory === "体重") {
+        return a.weight - b.weight;
+      }
+      return a.bmi - b.bmi;
+    });
+    sethumanDataDisp([...newHumanData]);
   };
 
   const searchName = (searchWord: string | number): void => {
@@ -80,7 +100,7 @@ const Header: React.FC = () => {
           />
         </div>
         <div>
-          <select>
+          <select onChange={(e): void => sortHumanData(e.target.value)}>
             {personalData.map((n: String) => (
               <option>{n}</option>
             ))}
