@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 import Modal from "react-modal";
+import { type } from "os";
+import Partial from "typescript";
 import InputLists from "../InptLists";
 
 const customStyles = {
@@ -28,6 +30,7 @@ export interface ModalFormVo {
 
 Modal.setAppElement("#root");
 const ModalWindow: React.FC<Props> = (props: Props) => {
+  const { modalIsOpen } = props;
   const [modalForm, setModalForm] = useState<ModalFormVo | undefined>(
     undefined
   );
@@ -63,7 +66,7 @@ const ModalWindow: React.FC<Props> = (props: Props) => {
   return (
     <div>
       <Modal
-        isOpen={props.modalIsOpen}
+        isOpen={modalIsOpen}
         onRequestClose={(): void => handleModalClose()}
         style={customStyles}
         contentLabel="Example Modal"
@@ -92,7 +95,7 @@ const ModalWindow: React.FC<Props> = (props: Props) => {
             身長
             <input
               value={modalForm?.height}
-              onChange={(e): void => handleChangeHeight(e.target.value)}
+              onChange={(e): void => handleChangeHeight(Number(e.target.value))}
             />
           </label>
         </div>
@@ -101,7 +104,7 @@ const ModalWindow: React.FC<Props> = (props: Props) => {
             体重
             <input
               value={modalForm?.weight}
-              onChange={(e): void => handleChangeWeight(e.target.value)}
+              onChange={(e): void => handleChangeWeight(Number(e.target.value))}
             />
           </label>
         </div>
