@@ -11,6 +11,12 @@ react+typescript などを使用した Todo アプリ。
 5. prettier
 6. storybook
 
+## prd
+
+[application](https://i-s-23.github.io/react-personal-data-management-todo-web-app/docs/dist/)
+
+[storybook-page](https://i-s-23.github.io/react-personal-data-management-todo-web-app/docs/storybook-page/)
+
 ## Reference material
 
 [React を使ったモダンなフロントエンド開発の環境構築](https://qiita.com/toshi-toma/items/8ee55304f09b5840b9a4)

@@ -1,10 +1,8 @@
 import * as React from "react";
-import * as ReactDOM from "react-dom";
+import Header from "./component/Header";
 
 const App: React.FC = () => {
-  return (
-    <h1>START</h1>
-  )
+  return <Header />;
 };
 
 export default App;
