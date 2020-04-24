@@ -1,8 +1,6 @@
 import React, { useState } from "react";
 import Modal from "react-modal";
-import { type } from "os";
 import Partial from "typescript";
-import InputLists from "../InptLists";
 
 const customStyles = {
   content: {
@@ -15,17 +13,16 @@ const customStyles = {
   }
 };
 
-interface Props {
-  modalIsOpen: boolean;
-  handleModalClose: (value: boolean) => void;
-  handleModalConfirm: (value: boolean) => void;
-}
-
 export interface ModalFormVo {
   name: string;
   birthday: string;
   height: number;
   weight: number;
+}
+interface Props {
+  modalIsOpen: boolean;
+  handleModalClose: () => void;
+  handleModalConfirm: (value: ModalFormVo) => void;
 }
 
 Modal.setAppElement("#root");
@@ -50,16 +47,16 @@ const ModalWindow: React.FC<Props> = (props: Props) => {
     updateForm({ birthday: value });
   };
 
-  const handleChangeHeight = (value: number): void => {
-    updateForm({ height: value });
+  const handleChangeHeight = (value: string): void => {
+    updateForm({ height: Number(value) });
   };
 
-  const handleChangeWeight = (value: number): void => {
-    updateForm({ weight: value });
+  const handleChangeWeight = (value: string): void => {
+    updateForm({ weight: Number(value) });
   };
 
   const handleModalClose = (): void => {
-    props.handleModalClose(false);
+    props.handleModalClose();
     setModalForm(undefined);
   };
 
@@ -71,7 +68,6 @@ const ModalWindow: React.FC<Props> = (props: Props) => {
         style={customStyles}
         contentLabel="Example Modal"
       >
-        <h2> ModalWindow </h2>
         <div>
           <label>
             名前
@@ -95,7 +91,7 @@ const ModalWindow: React.FC<Props> = (props: Props) => {
             身長
             <input
               value={modalForm?.height}
-              onChange={(e): void => handleChangeHeight(Number(e.target.value))}
+              onChange={(e): void => handleChangeHeight(e.target.value)}
             />
           </label>
         </div>
@@ -104,13 +100,17 @@ const ModalWindow: React.FC<Props> = (props: Props) => {
             体重
             <input
               value={modalForm?.weight}
-              onChange={(e): void => handleChangeWeight(Number(e.target.value))}
+              onChange={(e): void => handleChangeWeight(e.target.value)}
             />
           </label>
         </div>
         <button
           type="button"
-          onClick={(): void => props.handleModalConfirm(false)}
+          onClick={(): void => {
+            if (modalForm !== undefined) {
+              props.handleModalConfirm(modalForm);
+            }
+          }}
         >
           登録
         </button>
