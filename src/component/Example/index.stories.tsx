@@ -12,7 +12,8 @@ const components = storiesOf("Components", module);
 components
   .addDecorator(withKnobs)
   .addDecorator(withA11y)
-  .addDecorator(withInfo({ inline: true }))
+  .addDecorator(withInfo)
+  .addParameters({ info: { inline: true } })
   .add("Example", () => (
     <Example
       text={text("テキスト", "ああああ")}
