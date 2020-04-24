@@ -11,6 +11,10 @@ react+typescript などを使用した Todo アプリ。
 5. prettier
 6. storybook
 
+## storybook
+
+[storybook-page](./storybook-static/index.html)
+
 ## Reference material
 
 [React を使ったモダンなフロントエンド開発の環境構築](https://qiita.com/toshi-toma/items/8ee55304f09b5840b9a4)
