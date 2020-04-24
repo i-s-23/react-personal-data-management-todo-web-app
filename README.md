@@ -13,7 +13,7 @@ react+typescript などを使用した Todo アプリ。
 
 ## storybook
 
-[storybook-page](./storybook-static/index.html)
+[storybook-page](./storybook-page/index.html)
 
 ## Reference material
 
