@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import Modal from "react-modal";
-import Partial from "typescript";
 
 const customStyles = {
   content: {
@@ -14,10 +13,10 @@ const customStyles = {
 };
 
 export interface ModalFormVo {
-  name: string;
-  birthday: string;
-  height: number;
-  weight: number;
+  name?: string;
+  birthday?: string;
+  height?: number;
+  weight?: number;
 }
 interface Props {
   modalIsOpen: boolean;
@@ -32,7 +31,7 @@ const ModalWindow: React.FC<Props> = (props: Props) => {
     undefined
   );
 
-  const updateForm = (part: Partial<ModalFormVo>): void => {
+  const updateForm = (part: ModalFormVo): void => {
     setModalForm({
       ...modalForm,
       ...part
@@ -108,7 +107,14 @@ const ModalWindow: React.FC<Props> = (props: Props) => {
           type="button"
           onClick={(): void => {
             if (modalForm !== undefined) {
-              props.handleModalConfirm(modalForm);
+              if (
+                modalForm.name !== undefined ||
+                modalForm.height !== undefined ||
+                modalForm.birthday !== undefined ||
+                modalForm.weight !== undefined
+              ) {
+                props.handleModalConfirm(modalForm);
+              }
             }
           }}
         >

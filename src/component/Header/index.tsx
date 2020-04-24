@@ -53,11 +53,15 @@ const Header: React.FC = () => {
     setModalIsOpen(false);
     const human: Array<personalDataVo> = [
       {
-        name: modalForm.name,
-        birthday: modalForm.birthday,
-        height: modalForm.height,
-        weight: modalForm.weight,
-        bmi: modalForm.weight / (modalForm.height / 100) ** 2
+        name: modalForm.name === undefined ? "" : modalForm.name,
+        birthday: modalForm.birthday === undefined ? "" : modalForm.birthday,
+        height: modalForm.height === undefined ? 0 : modalForm.height,
+        weight: modalForm.weight === undefined ? 0 : modalForm.weight,
+        bmi:
+          modalForm.weight === undefined
+            ? 0
+            : modalForm.weight /
+              (modalForm.height === undefined ? 0 : modalForm.height / 100) ** 2
       }
     ];
 
