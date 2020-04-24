@@ -8,10 +8,6 @@ setConsoleOptions({
     panelExclude: []
   });
 
-addDecorator(withInfo);
-addDecorator(withKnobs);
-addDecorator(withA11y);
-
 const req = require.context("../src", true, /\.stories\.tsx$/);
 
 function loadStories() {
