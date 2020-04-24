@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import ModalWindow from "../ModalWindow";
+import ModalWindow, { ModalFormVo } from "../ModalWindow";
 
 export interface personalDataVo {
   name: string;
@@ -45,13 +45,23 @@ const Header: React.FC = () => {
 
   const [humanDataDisp, sethumanDataDisp] = useState(humanData);
 
-  const handleModalClose = (val: boolean): void => {
+  const handleModalClose = (): void => {
     setModalIsOpen(false);
   };
 
-  const handleModalConfirm = (val: boolean): void => {
+  const handleModalConfirm = (modalForm: ModalFormVo): void => {
     setModalIsOpen(false);
-    console.log(props.name);
+    const human: Array<personalDataVo> = [
+      {
+        name: modalForm.name,
+        birthday: modalForm.birthday,
+        height: modalForm.height,
+        weight: modalForm.weight,
+        bmi: modalForm.weight / (modalForm.height / 100) ** 2
+      }
+    ];
+
+    sethumanDataDisp(humanData.concat(human));
   };
 
   const sortHumanData = (sortCategory: string): void => {
