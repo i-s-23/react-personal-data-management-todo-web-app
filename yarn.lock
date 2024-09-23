@@ -2430,12 +2430,12 @@
     "@storybook/global" "^5.0.0"
     ts-dedent "^2.0.0"
 
-"@storybook/addon-storysource@^8.1.11":
-  version "8.2.9"
-  resolved "https://registry.yarnpkg.com/@storybook/addon-storysource/-/addon-storysource-8.2.9.tgz#c9e3e169d4b8ca646bdcd43cc5f6250fc21cc710"
-  integrity sha512-zSfw4FNjzSGdWvNhrjJgiqabQAklCXR3Xa0Hp5/5omG9Wl/JdiAKw9ysycQXovAv4VuubxS1x0pOTo6Wg40M3A==
+"@storybook/addon-storysource@^8.3.2":
+  version "8.3.2"
+  resolved "https://registry.yarnpkg.com/@storybook/addon-storysource/-/addon-storysource-8.3.2.tgz#adc10a610757c4136d5b72819ec621082a423cbe"
+  integrity sha512-CaCcLwZ9/YmYJ2DUdFTgAg4fX03hQF6RWWzfPMjiyCRWXeW918iBBP/EAHL8kuAt4qHlfYteXoMcbFaRgbqh0Q==
   dependencies:
-    "@storybook/source-loader" "8.2.9"
+    "@storybook/source-loader" "8.3.2"
     estraverse "^5.2.0"
     tiny-invariant "^1.3.1"
 
@@ -2972,7 +2972,7 @@
   dependencies:
     lodash "^4.17.15"
 
-"@storybook/csf@0.1.11", "@storybook/csf@^0.1.2":
+"@storybook/csf@0.1.11", "@storybook/csf@^0.1.11", "@storybook/csf@^0.1.2":
   version "0.1.11"
   resolved "https://registry.yarnpkg.com/@storybook/csf/-/csf-0.1.11.tgz#ad685a4fe564a47a6b73571c2e7c07b526f4f71b"
   integrity sha512-dHYFQH3mA+EtnCkHXzicbLgsvzYjcDJ1JWsogbItZogkPHgSJM/Wr71uMkcvw8v9mmCyP4NpXJuu6bPoVsOnzg==
@@ -3290,12 +3290,12 @@
     core-js "^3.6.5"
     find-up "^4.1.0"
 
-"@storybook/source-loader@8.2.9":
-  version "8.2.9"
-  resolved "https://registry.yarnpkg.com/@storybook/source-loader/-/source-loader-8.2.9.tgz#d67e805ed673afb9c3db6f5c4214d50d16bb8c54"
-  integrity sha512-M2A6oo1DmcQXaSDKAXik9watCUZFGxSGPnPI3H/7O3Zt1S+9TLpCWdDpOm9itYRijLEQY7u3IvPTZqlbgSl17A==
+"@storybook/source-loader@8.3.2":
+  version "8.3.2"
+  resolved "https://registry.yarnpkg.com/@storybook/source-loader/-/source-loader-8.3.2.tgz#752130c8541b0cd8530938d5d41456873ec03bfa"
+  integrity sha512-+h9F5KB/ccLlV1FXwoQ6sftYGHimaMttC5mQ6o5t3a3EI8cbyMxdnz5uoAO3mpO3CuVLg/jkfNO/RboHTNBEDg==
   dependencies:
-    "@storybook/csf" "0.1.11"
+    "@storybook/csf" "^0.1.11"
     estraverse "^5.2.0"
     lodash "^4.17.21"
     prettier "^3.1.1"
