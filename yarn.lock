@@ -2398,12 +2398,12 @@
   dependencies:
     "@sinonjs/commons" "^1.7.0"
 
-"@storybook/addon-a11y@^8.4.4":
-  version "8.4.4"
-  resolved "https://registry.yarnpkg.com/@storybook/addon-a11y/-/addon-a11y-8.4.4.tgz#4506067cbe4d0366d3c3f8e96ddf641a651c9816"
-  integrity sha512-xXNOG4Bw/v8rg2Zq/ZJnZSLWfpfkfnZjn0sQVLOe5JcDxavkh5o+WvQ6Tc2w/kK/ophCd7nbTotywrtdQYGNKw==
+"@storybook/addon-a11y@^8.4.5":
+  version "8.4.5"
+  resolved "https://registry.yarnpkg.com/@storybook/addon-a11y/-/addon-a11y-8.4.5.tgz#963f6ded06a5aff79862d9f2c6dce74027b23c29"
+  integrity sha512-lqIOpWJZNR0Ur+2zUcnFAMvdOe7kYEDeXPv1TM7fwEGyzKPYoM/k5xPA2cJCrYwtydxOqqrmn1jUIw0Qdkhuhg==
   dependencies:
-    "@storybook/addon-highlight" "8.4.4"
+    "@storybook/addon-highlight" "8.4.5"
     axe-core "^4.2.0"
 
 "@storybook/addon-actions@*", "@storybook/addon-actions@^8.4.4":
@@ -2424,10 +2424,10 @@
   dependencies:
     "@storybook/global" "^5.0.0"
 
-"@storybook/addon-highlight@8.4.4":
-  version "8.4.4"
-  resolved "https://registry.yarnpkg.com/@storybook/addon-highlight/-/addon-highlight-8.4.4.tgz#7ef88b1908e156ad95af2255493aad32dd13df36"
-  integrity sha512-k7EUxiMe8RCasmgfa6ZKx7UG6kU9RooTYGwqY5TG5xAQOzDwKn4qom+OYkT/9/6lORhJrUe2GgQLCrq/WGpS1A==
+"@storybook/addon-highlight@8.4.5":
+  version "8.4.5"
+  resolved "https://registry.yarnpkg.com/@storybook/addon-highlight/-/addon-highlight-8.4.5.tgz#44c194f88395a6e221744867a11f39ea8910d290"
+  integrity sha512-sMA7v+4unaKY+5RDhow6lLncJqNX9ZLUnBIt3vzY1ntUsOYVwykAY1Hq4Ysj0luCBXjJJdJ6223ylrycnb7Ilw==
   dependencies:
     "@storybook/global" "^5.0.0"
 
