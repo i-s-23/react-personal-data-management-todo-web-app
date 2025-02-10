@@ -46,7 +46,7 @@
     "@types/styled-components": "^5.1.34",
     "@types/webpack": "^5.28.5",
     "babel-loader": "^9.2.1",
-    "eslint": "^9.19.0",
+    "eslint": "^9.20.0",
     "eslint-config-airbnb-typescript-prettier": "^5.0.0",
     "prettier": "^3.5.0",
     "react-docgen-typescript-loader": "^3.7.2",
