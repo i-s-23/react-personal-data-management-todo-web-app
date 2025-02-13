@@ -2419,13 +2419,13 @@
   dependencies:
     "@sinonjs/commons" "^1.7.0"
 
-"@storybook/addon-a11y@^8.5.4":
-  version "8.5.4"
-  resolved "https://registry.yarnpkg.com/@storybook/addon-a11y/-/addon-a11y-8.5.4.tgz#9e7deae78a6c412bb5e26862c0b8e13472890467"
-  integrity sha512-Ex+bIoQAI3xRUXwxXhBjLJ1pz0ksqd32UVzWe+qjFw+llPqsybkl5bsKt6YnitqxRRQVghwUEkdeyES6HAq7og==
+"@storybook/addon-a11y@^8.5.5":
+  version "8.5.5"
+  resolved "https://registry.yarnpkg.com/@storybook/addon-a11y/-/addon-a11y-8.5.5.tgz#29be6a2069a8e284659dfdc12b294d4f61dec7da"
+  integrity sha512-+svmnXdUhuwawNQqvYWkPsxniVYtjorr56myrqcMcexbX4SjtD/SX8cFlqTU0AGTWzrmGjSTEePCfWrG7C6R7g==
   dependencies:
-    "@storybook/addon-highlight" "8.5.4"
-    "@storybook/test" "8.5.4"
+    "@storybook/addon-highlight" "8.5.5"
+    "@storybook/test" "8.5.5"
     axe-core "^4.2.0"
 
 "@storybook/addon-actions@*", "@storybook/addon-actions@^8.5.4":
@@ -2446,10 +2446,10 @@
   dependencies:
     "@storybook/global" "^5.0.0"
 
-"@storybook/addon-highlight@8.5.4":
-  version "8.5.4"
-  resolved "https://registry.yarnpkg.com/@storybook/addon-highlight/-/addon-highlight-8.5.4.tgz#62d63e946059fe3249ee093aad57812794f20964"
-  integrity sha512-llrxTpzJs+F61nU9ZPaVhw8iHE3hVSc5bVRuEFSRRroJC/wSNGBHz9nLBfmZ7w+06dXK4S5DRHbYehBLRRzj3Q==
+"@storybook/addon-highlight@8.5.5":
+  version "8.5.5"
+  resolved "https://registry.yarnpkg.com/@storybook/addon-highlight/-/addon-highlight-8.5.5.tgz#8d94f1519329f69d119649254c74dd19009f877f"
+  integrity sha512-z7tSZLwNpDcOOb7XJItRGzYH3giUccmkk5LZSZ3ZD8oaiVDEDKFllJnLAFXP5K8RB1jF/8VmGQEqqQAMopzLYw==
   dependencies:
     "@storybook/global" "^5.0.0"
 
@@ -3086,10 +3086,10 @@
   resolved "https://registry.yarnpkg.com/@storybook/global/-/global-5.0.0.tgz#b793d34b94f572c1d7d9e0f44fac4e0dbc9572ed"
   integrity sha512-FcOqPAXACP0I3oJ/ws6/rrPT9WGhu915Cg8D02a9YxLo0DE9zI+a9A5gRGvmQ09fiWPukqI8ZAEoQEdWUKMQdQ==
 
-"@storybook/instrumenter@8.5.4":
-  version "8.5.4"
-  resolved "https://registry.yarnpkg.com/@storybook/instrumenter/-/instrumenter-8.5.4.tgz#002e79b6d1d618c6249cfa82a1adf79e298535ad"
-  integrity sha512-6Y2d6SNZslZl2UhkfH8Ml6SzKX5b2x/QRBwkLAAXc/xZcFdK5luAOPk/fW1BU7jEAPAjtn493V3oo2nGA5D22A==
+"@storybook/instrumenter@8.5.5":
+  version "8.5.5"
+  resolved "https://registry.yarnpkg.com/@storybook/instrumenter/-/instrumenter-8.5.5.tgz#914b9b94b5bbb5b29b6810906a3227a2f3c12794"
+  integrity sha512-t4PlhgMTAFt/vSoqaydtATlcKJTEypxGnwlzx4lg5snrzmhYrtDUXTD/t25rrC0EjbEf412mlSS9BYRaogBAbg==
   dependencies:
     "@storybook/global" "^5.0.0"
     "@vitest/utils" "^2.1.1"
@@ -3421,14 +3421,14 @@
     read-pkg-up "^7.0.1"
     regenerator-runtime "^0.13.7"
 
-"@storybook/test@8.5.4":
-  version "8.5.4"
-  resolved "https://registry.yarnpkg.com/@storybook/test/-/test-8.5.4.tgz#700d9fdd08c3ce76dc0f3d98fd35a7c68b9a8b1e"
-  integrity sha512-H7zV39GLiUSz/M7fJtv/NWOF1J99CTAqqXMaETwJU5wEpkj1Q3jzmWss+UFtl5x7f/OZC4niP9s9A3G8rZHpKw==
+"@storybook/test@8.5.5":
+  version "8.5.5"
+  resolved "https://registry.yarnpkg.com/@storybook/test/-/test-8.5.5.tgz#c5fd97e741699449e6ba58d8d30cae8afc543276"
+  integrity sha512-8hVvT+TopKmh9iKZdTHmMz4kelz+gKwjCquw59ynoZBZ4saJdEdqmIaoPaFPAJukuGAP7qQKO6AnYFsufNw4gw==
   dependencies:
     "@storybook/csf" "0.1.12"
     "@storybook/global" "^5.0.0"
-    "@storybook/instrumenter" "8.5.4"
+    "@storybook/instrumenter" "8.5.5"
     "@testing-library/dom" "10.4.0"
     "@testing-library/jest-dom" "6.5.0"
     "@testing-library/user-event" "14.5.2"
