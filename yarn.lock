@@ -2709,17 +2709,17 @@
     telejson "^7.2.0"
     tiny-invariant "^1.3.1"
 
-"@storybook/cli@^8.5.4":
-  version "8.5.4"
-  resolved "https://registry.yarnpkg.com/@storybook/cli/-/cli-8.5.4.tgz#2ac5500a85e5c30fd280071cde01878999ad24ea"
-  integrity sha512-Dug5snbAzJWYeeTEF9KZsUxG7qrErUTUZnz3fh/DhUPagYLYK/kBpFIByj1FNy5KAJJMlQ5i8Xse5BxARHalTg==
+"@storybook/cli@^8.5.5":
+  version "8.5.5"
+  resolved "https://registry.yarnpkg.com/@storybook/cli/-/cli-8.5.5.tgz#8b474075484a4529377a61ae28f8a032c2aa10f5"
+  integrity sha512-N4zGmREl/a8q1lEaIGn0TV4Be5waUMPOfg4kBk1pElyWomffg0C2QuhHzUSnDqfQWTbj3q6frywFmLWlTMFz3w==
   dependencies:
     "@babel/core" "^7.24.4"
     "@babel/types" "^7.24.0"
-    "@storybook/codemod" "8.5.4"
+    "@storybook/codemod" "8.5.5"
     "@types/semver" "^7.3.4"
     commander "^12.1.0"
-    create-storybook "8.5.4"
+    create-storybook "8.5.5"
     cross-spawn "^7.0.3"
     envinfo "^7.7.3"
     fd-package-json "^1.2.0"
@@ -2731,7 +2731,7 @@
     leven "^3.1.0"
     prompts "^2.4.0"
     semver "^7.3.7"
-    storybook "8.5.4"
+    storybook "8.5.5"
     tiny-invariant "^1.3.1"
     ts-dedent "^2.0.0"
 
@@ -2783,15 +2783,15 @@
   dependencies:
     "@storybook/global" "^5.0.0"
 
-"@storybook/codemod@8.5.4":
-  version "8.5.4"
-  resolved "https://registry.yarnpkg.com/@storybook/codemod/-/codemod-8.5.4.tgz#f2f4aa97d034aaf2c881727feae50a3c7197f701"
-  integrity sha512-KTpIJI1QZXOhK4wz1ceIhU34koUS2Zc6Tte5dG+CVTL9dEHoBfkbYVOXhloBc3SWf1H6EhlGRlLEj7qXOQXZnQ==
+"@storybook/codemod@8.5.5":
+  version "8.5.5"
+  resolved "https://registry.yarnpkg.com/@storybook/codemod/-/codemod-8.5.5.tgz#7ab3a720c66b645d4cb162a0674337fb28d7069d"
+  integrity sha512-07bmYzMnuGanDSXYvC4R80grGcJfrjJbZlpX4ax6K3ejqKLKmDsLjfJ7kd20Ou3V7j8Qn5mRkYudrSxcPMpjDg==
   dependencies:
     "@babel/core" "^7.24.4"
     "@babel/preset-env" "^7.24.4"
     "@babel/types" "^7.24.0"
-    "@storybook/core" "8.5.4"
+    "@storybook/core" "8.5.5"
     "@storybook/csf" "0.1.12"
     "@types/cross-spawn" "^6.0.2"
     cross-spawn "^7.0.3"
@@ -3010,10 +3010,10 @@
     "@storybook/core-client" "6.5.16"
     "@storybook/core-server" "6.5.16"
 
-"@storybook/core@8.5.4":
-  version "8.5.4"
-  resolved "https://registry.yarnpkg.com/@storybook/core/-/core-8.5.4.tgz#7dfdd3496620f607253bd23bb004d602e17114ee"
-  integrity sha512-x7SoqdDAi6+x7hFRF7SIcxKKNdj8E1pK0B9k6uf+cop16/mxNWazqQFJRpKRE66h/ImYqopMnpX3ASaa3Khm4w==
+"@storybook/core@8.5.5":
+  version "8.5.5"
+  resolved "https://registry.yarnpkg.com/@storybook/core/-/core-8.5.5.tgz#e0e18ac9475b4d5a269d2bd74c72c5d7e65009bf"
+  integrity sha512-uQoMv6Zd941/vsjE8kP87pp1f5YHLyct+2J/FGUI5ukBOJLgS+K9khF82wfDL0JRULibV3b59g73tsttc3ZdcA==
   dependencies:
     "@storybook/csf" "0.1.12"
     better-opn "^3.0.2"
@@ -6648,10 +6648,10 @@ create-react-context@0.3.0:
     gud "^1.0.0"
     warning "^4.0.3"
 
-create-storybook@8.5.4:
-  version "8.5.4"
-  resolved "https://registry.yarnpkg.com/create-storybook/-/create-storybook-8.5.4.tgz#c62dd0371d8b48e5ad7ae886c0496b5d3376472e"
-  integrity sha512-BxItRoF4FamaUBsF7+B9LVh40ha7AVSYSXbe8RmapQJt15u8q8f3Jbg2C0tP9YZKli1RQAi7QUqL3WJPqFJttw==
+create-storybook@8.5.5:
+  version "8.5.5"
+  resolved "https://registry.yarnpkg.com/create-storybook/-/create-storybook-8.5.5.tgz#8e8fbe3ed8e2dceaf40333ddab6f5fc01bc5cf59"
+  integrity sha512-A6nltlpQEqgt6GfAWoSiBe82MlWrCAdQHOYgePMY/zIgwtBGSMG6HKKuznK80ydGoJI9HkXfTVVTNFr9mX+1Bw==
   dependencies:
     "@types/semver" "^7.3.4"
     commander "^12.1.0"
@@ -6662,7 +6662,7 @@ create-storybook@8.5.4:
     prettier "^3.1.1"
     prompts "^2.4.0"
     semver "^7.3.7"
-    storybook "8.5.4"
+    storybook "8.5.5"
     tiny-invariant "^1.3.1"
     ts-dedent "^2.0.0"
 
@@ -15350,12 +15350,12 @@ store2@^2.12.0, store2@^2.14.2, store2@^2.7.1:
   resolved "https://registry.yarnpkg.com/store2/-/store2-2.14.4.tgz#81b313abaddade4dcd7570c5cc0e3264a8f7a242"
   integrity sha512-srTItn1GOvyvOycgxjAnPA63FZNwy0PTyUBFMHRM+hVFltAeoh0LmNBz9SZqUS9mMqGk8rfyWyXn3GH5ReJ8Zw==
 
-storybook@8.5.4:
-  version "8.5.4"
-  resolved "https://registry.yarnpkg.com/storybook/-/storybook-8.5.4.tgz#097e6d39bba43db18c2fa951c8b820a2d445e61f"
-  integrity sha512-TMXXOprDjkt8GbTCgzZSi0sPYoKMfvN+9gGnU7gRa8s1C0QhqkE0lc6fq9pl8nahXPF5ala4gPOaxjQbuJUvNQ==
+storybook@8.5.5:
+  version "8.5.5"
+  resolved "https://registry.yarnpkg.com/storybook/-/storybook-8.5.5.tgz#339a8b1c8afcf249af2876bfd911b9d1dab2e60c"
+  integrity sha512-F9+D5/sgo3WkxpB96ZmyW+mEmB5mM5+I6pbLrenFbeNvzgsgCAq0bqtJKqd9qWnGwa43iPxcl8c7/fE4qbeKvQ==
   dependencies:
-    "@storybook/core" "8.5.4"
+    "@storybook/core" "8.5.5"
 
 stream-browserify@^2.0.1:
   version "2.0.2"
