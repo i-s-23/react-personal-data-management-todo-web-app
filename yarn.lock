@@ -2488,12 +2488,11 @@
     react-lifecycles-compat "^3.0.4"
     react-select "^5.7.0"
 
-"@storybook/addon-links@^8.5.8":
-  version "8.5.8"
-  resolved "https://registry.yarnpkg.com/@storybook/addon-links/-/addon-links-8.5.8.tgz#7e028ecda058011c1c407a88a9eb18c4a5b59689"
-  integrity sha512-nLfcWhqDCTaEB/zPjzdN+FtsJ3WnvrRE7Uq+UZHF/HDqt7EXicUYCnbzHIF6ReyNBFklr48O/RhotDu9cyUDlw==
+"@storybook/addon-links@^8.6.0":
+  version "8.6.0"
+  resolved "https://registry.yarnpkg.com/@storybook/addon-links/-/addon-links-8.6.0.tgz#213b44c0f4a5e8c072c46e4b3a2482b656ba479d"
+  integrity sha512-uKMTBSE8OMW7iHntyBlv/jyNHcWCGk2o85z3WBMjRGgPB6KrJorPluM8XVF9oOvpdk+LPqiB370tcP/7wYipYQ==
   dependencies:
-    "@storybook/csf" "0.1.12"
     "@storybook/global" "^5.0.0"
     ts-dedent "^2.0.0"
 
