@@ -2506,10 +2506,10 @@
     estraverse "^5.2.0"
     tiny-invariant "^1.3.1"
 
-"@storybook/addon-viewport@^8.5.8":
-  version "8.5.8"
-  resolved "https://registry.yarnpkg.com/@storybook/addon-viewport/-/addon-viewport-8.5.8.tgz#6cf973d58f9f1dff27a8864f251c0a49f588c326"
-  integrity sha512-SdoRb4bH99Knj2R+rTcMQQxHrtcIO1GLzTFitAefxBE1OUkq8FNLHMHd0Ip/sCQGLW/5F03U70R2uh7SkhBBYA==
+"@storybook/addon-viewport@^8.6.0":
+  version "8.6.0"
+  resolved "https://registry.yarnpkg.com/@storybook/addon-viewport/-/addon-viewport-8.6.0.tgz#78aeaa39d209b5c0bde46ed989184c084bb826e6"
+  integrity sha512-sVDF3gIjGdvfBdCM/jEBu6Nd5GlqITKBtdySiQdNDl5JI4ak77ZM+T+VQmJxB4sIqvCjWzCbQqUC45nymVObug==
   dependencies:
     memoizerific "^1.11.3"
 
