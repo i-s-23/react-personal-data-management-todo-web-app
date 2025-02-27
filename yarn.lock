@@ -2488,10 +2488,10 @@
     react-lifecycles-compat "^3.0.4"
     react-select "^5.7.0"
 
-"@storybook/addon-links@^8.6.0":
-  version "8.6.0"
-  resolved "https://registry.yarnpkg.com/@storybook/addon-links/-/addon-links-8.6.0.tgz#213b44c0f4a5e8c072c46e4b3a2482b656ba479d"
-  integrity sha512-uKMTBSE8OMW7iHntyBlv/jyNHcWCGk2o85z3WBMjRGgPB6KrJorPluM8XVF9oOvpdk+LPqiB370tcP/7wYipYQ==
+"@storybook/addon-links@^8.6.2":
+  version "8.6.2"
+  resolved "https://registry.yarnpkg.com/@storybook/addon-links/-/addon-links-8.6.2.tgz#510d51f727349ad4fefd82221a1738eaaafe0943"
+  integrity sha512-/7ARtUZ0lCEbAiaE5z+tXxrTHiUgSuPXK7yx9Vnekba68vOBLmxVEqw05tZGikzIm4sFi3dpH3iKT325wAYDmg==
   dependencies:
     "@storybook/global" "^5.0.0"
     ts-dedent "^2.0.0"
@@ -3466,11 +3466,6 @@
     "@storybook/client-logger" "7.6.17"
     "@storybook/global" "^5.0.0"
     memoizerific "^1.11.3"
-
-"@storybook/theming@8.6.0":
-  version "8.6.0"
-  resolved "https://registry.yarnpkg.com/@storybook/theming/-/theming-8.6.0.tgz#1c1026e776407641ff13650d06529bfd7edcb643"
-  integrity sha512-te7dl0ZXnEyKS4LW+QHc3MP7nurWhWhmClY7G2WKNW9eHenb9zvXkcAQt6c4OWhrJi01CAYoXmZNJP0jEzxRRQ==
 
 "@storybook/theming@8.6.2":
   version "8.6.2"
