@@ -2425,10 +2425,10 @@
     "@storybook/test" "8.6.2"
     axe-core "^4.2.0"
 
-"@storybook/addon-actions@*", "@storybook/addon-actions@^8.6.0":
-  version "8.6.0"
-  resolved "https://registry.yarnpkg.com/@storybook/addon-actions/-/addon-actions-8.6.0.tgz#da0f7d26f08364fbb94995244aa778f050696581"
-  integrity sha512-lI03stcI28wN8trjp7zx0PzN1NRxSpU/551slzEhSM0tghcLxcfLZR/wh4Jp0T68Obj7z//YXPttZ9PBFajs6w==
+"@storybook/addon-actions@*", "@storybook/addon-actions@^8.6.2":
+  version "8.6.2"
+  resolved "https://registry.yarnpkg.com/@storybook/addon-actions/-/addon-actions-8.6.2.tgz#abb13aa13d539bfb9fb0e3a9b2b6c4d10ae3aa96"
+  integrity sha512-grIRReMObwwt/VZemFnaKDbeaiK257egN+/knuqMbT3eUA6aitlzTr5UynBZnsVYbJFdD6PYyIZMKoGWEdFJlQ==
   dependencies:
     "@storybook/global" "^5.0.0"
     "@types/uuid" "^9.0.1"
@@ -3466,11 +3466,6 @@
     "@storybook/client-logger" "7.6.17"
     "@storybook/global" "^5.0.0"
     memoizerific "^1.11.3"
-
-"@storybook/theming@8.6.0":
-  version "8.6.0"
-  resolved "https://registry.yarnpkg.com/@storybook/theming/-/theming-8.6.0.tgz#1c1026e776407641ff13650d06529bfd7edcb643"
-  integrity sha512-te7dl0ZXnEyKS4LW+QHc3MP7nurWhWhmClY7G2WKNW9eHenb9zvXkcAQt6c4OWhrJi01CAYoXmZNJP0jEzxRRQ==
 
 "@storybook/theming@8.6.2":
   version "8.6.2"
