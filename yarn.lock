@@ -2496,12 +2496,12 @@
     "@storybook/global" "^5.0.0"
     ts-dedent "^2.0.0"
 
-"@storybook/addon-storysource@^8.6.0":
-  version "8.6.0"
-  resolved "https://registry.yarnpkg.com/@storybook/addon-storysource/-/addon-storysource-8.6.0.tgz#e0f58bcca4acb594c09077474820c9a40f28eff4"
-  integrity sha512-XaQZqAjqxK01O4xuR7NnnTKZxVOBFcBgWUCUuVSR4IjusWuzrfOxlq9/I4dcy10O5+SCLcFJs6P/wUFikBgsMg==
+"@storybook/addon-storysource@^8.6.2":
+  version "8.6.2"
+  resolved "https://registry.yarnpkg.com/@storybook/addon-storysource/-/addon-storysource-8.6.2.tgz#073912a5462f6fa34716bcd7f0cb9c23ab9e4aa2"
+  integrity sha512-1psIeoftkw8F/f7wECMJZifs4nvuPpOAJ4rR8dCx4V45fPgKdeRcWO9J36i/a4K/xcQjs5FGLGS6IM1puM8Viw==
   dependencies:
-    "@storybook/source-loader" "8.6.0"
+    "@storybook/source-loader" "8.6.2"
     estraverse "^5.2.0"
     tiny-invariant "^1.3.1"
 
@@ -3057,7 +3057,7 @@
   dependencies:
     lodash "^4.17.15"
 
-"@storybook/csf@0.1.12", "@storybook/csf@^0.1.2":
+"@storybook/csf@^0.1.2":
   version "0.1.12"
   resolved "https://registry.yarnpkg.com/@storybook/csf/-/csf-0.1.12.tgz#1dcfa0f398a69b834c563884b5f747db3d5a81df"
   integrity sha512-9/exVhabisyIVL0VxTCxo01Tdm8wefIXKXfltAPTSr8cbLn5JAxGQ6QV3mjdecLGEOucfoVhAKtJfVHxEK1iqw==
@@ -3368,10 +3368,10 @@
     core-js "^3.6.5"
     find-up "^4.1.0"
 
-"@storybook/source-loader@8.6.0":
-  version "8.6.0"
-  resolved "https://registry.yarnpkg.com/@storybook/source-loader/-/source-loader-8.6.0.tgz#8a642e36c9d355ffe8367b0bf27f6748bda48f2c"
-  integrity sha512-D70XFFvCyWjHtXnPzUPE1Xz0mBNw2L83TK4Y8pb3Tal2CRh/vlp2pwO5TaseM6ahe2sSO7oODV1Smnz+pr8ClQ==
+"@storybook/source-loader@8.6.2":
+  version "8.6.2"
+  resolved "https://registry.yarnpkg.com/@storybook/source-loader/-/source-loader-8.6.2.tgz#e25e1b728de1f600a7cb0ccddae6d7ae78bcd0cc"
+  integrity sha512-0E/Nv7AV3f3VeR25NLN47F3oM4CuzPHjv3Tp7DSsP3x3VuQHZGZfjGL3Weh4UppuhTVYzdV8fyqVyQbEVwNssQ==
   dependencies:
     es-toolkit "^1.22.0"
     estraverse "^5.2.0"
@@ -3466,11 +3466,6 @@
     "@storybook/client-logger" "7.6.17"
     "@storybook/global" "^5.0.0"
     memoizerific "^1.11.3"
-
-"@storybook/theming@8.6.0":
-  version "8.6.0"
-  resolved "https://registry.yarnpkg.com/@storybook/theming/-/theming-8.6.0.tgz#1c1026e776407641ff13650d06529bfd7edcb643"
-  integrity sha512-te7dl0ZXnEyKS4LW+QHc3MP7nurWhWhmClY7G2WKNW9eHenb9zvXkcAQt6c4OWhrJi01CAYoXmZNJP0jEzxRRQ==
 
 "@storybook/theming@8.6.0":
   version "8.6.0"
