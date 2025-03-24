@@ -2502,12 +2502,12 @@
     "@storybook/global" "^5.0.0"
     ts-dedent "^2.0.0"
 
-"@storybook/addon-storysource@^8.6.7":
-  version "8.6.7"
-  resolved "https://registry.yarnpkg.com/@storybook/addon-storysource/-/addon-storysource-8.6.7.tgz#50d2b6b4d7a9aaccbf7ce1b51135f5f9af7ca2ef"
-  integrity sha512-tIoTQp3MMyF3S4XarMOBVO40DofILO3Mz8upT4wGEfQULLjgCkS2K5c4BbT4de1hF49JsqvPByVlavntWQFTdg==
+"@storybook/addon-storysource@^8.6.9":
+  version "8.6.9"
+  resolved "https://registry.yarnpkg.com/@storybook/addon-storysource/-/addon-storysource-8.6.9.tgz#71e7cf54e2c2ec94081a07519080fe2d7342e3f8"
+  integrity sha512-BPEUhEuo6JijM71ZNAPziXQur1HzN12iekYJnpfsJZF/cUwZWjTF2HeXBn0Z2DjOjqtBzoSPaJgT7CLVAKucsQ==
   dependencies:
-    "@storybook/source-loader" "8.6.7"
+    "@storybook/source-loader" "8.6.9"
     estraverse "^5.2.0"
     tiny-invariant "^1.3.1"
 
@@ -3374,10 +3374,10 @@
     core-js "^3.6.5"
     find-up "^4.1.0"
 
-"@storybook/source-loader@8.6.7":
-  version "8.6.7"
-  resolved "https://registry.yarnpkg.com/@storybook/source-loader/-/source-loader-8.6.7.tgz#894035cbe156085f0227a9011c1dc43e48d45f96"
-  integrity sha512-ycfrPHCs5OUrJTLCXDxvxLVB1zjL7IEepPs53o4RGRWO8xV1z0QfXXiX1drk48rep6dDu+a3mRWfNJ8m0RV/GA==
+"@storybook/source-loader@8.6.9":
+  version "8.6.9"
+  resolved "https://registry.yarnpkg.com/@storybook/source-loader/-/source-loader-8.6.9.tgz#a12bc09e40a17af1cd4277b56c319c1f231e6c89"
+  integrity sha512-Ogh3HjJoAiKD7svqqyA+bM8xOZm2kuMs0jkYsrfuZG6BlO9xVuTSviGRWHowUEEznQZOBz8a++SmTaqNEoen6g==
   dependencies:
     es-toolkit "^1.22.0"
     estraverse "^5.2.0"
