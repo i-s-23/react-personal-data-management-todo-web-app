@@ -2711,17 +2711,17 @@
     telejson "^7.2.0"
     tiny-invariant "^1.3.1"
 
-"@storybook/cli@^8.6.7":
-  version "8.6.7"
-  resolved "https://registry.yarnpkg.com/@storybook/cli/-/cli-8.6.7.tgz#58c603d50df0d14fa4fcfce26214dc094a249943"
-  integrity sha512-pX+MZAS6k5K9tZqv6ifHrcxDtna70TChzfVZEHjOPnoxSayhxtTlfbESRiuJRXTrB/kQlM9CkqImWgvtkEP4+w==
+"@storybook/cli@^8.6.9":
+  version "8.6.9"
+  resolved "https://registry.yarnpkg.com/@storybook/cli/-/cli-8.6.9.tgz#26170f676567efd1d4dc4e3f294288df4ba53bc7"
+  integrity sha512-6F2ozOvZ7TFtKf3uHzo3xQNNlbdf0X5ltZVO3x1Qkb2HFUNK2Cd1/410fd7hGmiFyyTVwJhbCLLMGkL3CeMUiw==
   dependencies:
     "@babel/core" "^7.24.4"
     "@babel/types" "^7.24.0"
-    "@storybook/codemod" "8.6.7"
+    "@storybook/codemod" "8.6.9"
     "@types/semver" "^7.3.4"
     commander "^12.1.0"
-    create-storybook "8.6.7"
+    create-storybook "8.6.9"
     cross-spawn "^7.0.3"
     envinfo "^7.7.3"
     fd-package-json "^1.2.0"
@@ -2734,7 +2734,7 @@
     p-limit "^6.2.0"
     prompts "^2.4.0"
     semver "^7.3.7"
-    storybook "8.6.7"
+    storybook "8.6.9"
     tiny-invariant "^1.3.1"
     ts-dedent "^2.0.0"
 
@@ -2786,15 +2786,15 @@
   dependencies:
     "@storybook/global" "^5.0.0"
 
-"@storybook/codemod@8.6.7":
-  version "8.6.7"
-  resolved "https://registry.yarnpkg.com/@storybook/codemod/-/codemod-8.6.7.tgz#8c737c161906b3b22d12c2a311cda91f73ef7b47"
-  integrity sha512-mgWpOKKBhdnNAjUh8IUbs5g9j3zW1tX6ILWIOimpWiPTjmkedC7NdUqcwbstVIb/RLTEw8lC5u8hdIAbRhcn5A==
+"@storybook/codemod@8.6.9":
+  version "8.6.9"
+  resolved "https://registry.yarnpkg.com/@storybook/codemod/-/codemod-8.6.9.tgz#fcdb8372267e107dd343c2e3e45f42913ec816d2"
+  integrity sha512-2EqMGx3ZXyGqxoEK1lfWjxaogiT19F3UzO1jZecWDJqsBt6AG1kWAz7HRqU+Nr7KsHIeDyrCWqOZabQfN2TFHg==
   dependencies:
     "@babel/core" "^7.24.4"
     "@babel/preset-env" "^7.24.4"
     "@babel/types" "^7.24.0"
-    "@storybook/core" "8.6.7"
+    "@storybook/core" "8.6.9"
     "@types/cross-spawn" "^6.0.2"
     cross-spawn "^7.0.3"
     es-toolkit "^1.22.0"
@@ -3012,12 +3012,12 @@
     "@storybook/core-client" "6.5.16"
     "@storybook/core-server" "6.5.16"
 
-"@storybook/core@8.6.7":
-  version "8.6.7"
-  resolved "https://registry.yarnpkg.com/@storybook/core/-/core-8.6.7.tgz#0e08a85b88e2d73c50da1a324767d0fc7baf51c4"
-  integrity sha512-FcvLFA+Qn3+D6LgQkk0MOXA5FBz8DGc0UZmZuVbIwIUV4MV4ywCMwtKdG0cyhtzQg0YNyfiIYWJr7lZ4jLLhYg==
+"@storybook/core@8.6.9":
+  version "8.6.9"
+  resolved "https://registry.yarnpkg.com/@storybook/core/-/core-8.6.9.tgz#e311037f4876c4d339712c1fa53aac595833940d"
+  integrity sha512-psYxJAlj34ZaDAk+OvT/He6ZuUh0eGiHVtZNe0xWbNp5pQvOBjf+dg48swdI6KEbVs3aeU+Wnyra/ViU2RtA+Q==
   dependencies:
-    "@storybook/theming" "8.6.7"
+    "@storybook/theming" "8.6.9"
     better-opn "^3.0.2"
     browser-assert "^1.2.1"
     esbuild "^0.18.0 || ^0.19.0 || ^0.20.0 || ^0.21.0 || ^0.22.0 || ^0.23.0 || ^0.24.0 || ^0.25.0"
@@ -3477,6 +3477,11 @@
   version "8.6.7"
   resolved "https://registry.yarnpkg.com/@storybook/theming/-/theming-8.6.7.tgz#3de70c055253120d8accc187ae24a25bbd24b9a8"
   integrity sha512-F/i4XS5bew9dvtNiHvDJF0mko1IUbPM9PUjTYPaw6cK8ytS0kdec703MsJ/GUA7seeEWBeGdZjV3ua0pys650A==
+
+"@storybook/theming@8.6.9":
+  version "8.6.9"
+  resolved "https://registry.yarnpkg.com/@storybook/theming/-/theming-8.6.9.tgz#493a80bdf9b7ffedd3db02e0c28e6fa0ff2f1e90"
+  integrity sha512-FQafe66itGnIh0V42R65tgFKyz0RshpIs0pTrxrdByuB2yKsep+f8ZgKLJE3fCKw/Egw4bUuICo2m8d7uOOumA==
 
 "@storybook/types@7.6.17":
   version "7.6.17"
@@ -6603,10 +6608,10 @@ create-react-context@0.3.0:
     gud "^1.0.0"
     warning "^4.0.3"
 
-create-storybook@8.6.7:
-  version "8.6.7"
-  resolved "https://registry.yarnpkg.com/create-storybook/-/create-storybook-8.6.7.tgz#3f77bbce5d3e673ede702ed2a6b0dfbbf307ad1f"
-  integrity sha512-/nlKxLSBU6mkl2kiZlpMMkPfUs9DY+VvRh+OvhAiuPIRm9BkWfwOWlazVtzUoqdLFzHMABZbCSNOT+zFgjD8tw==
+create-storybook@8.6.9:
+  version "8.6.9"
+  resolved "https://registry.yarnpkg.com/create-storybook/-/create-storybook-8.6.9.tgz#6e871d08fab1d99ec393202f119dd5d4d9824ce1"
+  integrity sha512-O/t8dvJY1UVOsUXLjnpq/ILW78/xUQs0hI0JAgraCcoAprz6/SFn2NkGeIkgW6TL7AlLxFPVB5j1Xf4V9K+Abw==
   dependencies:
     recast "^0.23.5"
     semver "^7.6.2"
@@ -15207,12 +15212,12 @@ store2@^2.12.0, store2@^2.14.2, store2@^2.7.1:
   resolved "https://registry.yarnpkg.com/store2/-/store2-2.14.4.tgz#81b313abaddade4dcd7570c5cc0e3264a8f7a242"
   integrity sha512-srTItn1GOvyvOycgxjAnPA63FZNwy0PTyUBFMHRM+hVFltAeoh0LmNBz9SZqUS9mMqGk8rfyWyXn3GH5ReJ8Zw==
 
-storybook@8.6.7:
-  version "8.6.7"
-  resolved "https://registry.yarnpkg.com/storybook/-/storybook-8.6.7.tgz#733ee38873d969627c37393621462abb2d21649c"
-  integrity sha512-9gktoFMQDSCINNGQH869d/sar9rVtAhr0HchcvDA6bssAqgQJvTphY4qC9lH54SxfTJm/7Sy+BKEngMK+dziJg==
+storybook@8.6.9:
+  version "8.6.9"
+  resolved "https://registry.yarnpkg.com/storybook/-/storybook-8.6.9.tgz#e90a70f8f9d022134becaf3ddf974f8fe35a3d3b"
+  integrity sha512-Iw4+R4V3yX7MhXJaLBAT4oLtZ+SaTzX8KvUNZiQzvdD+TrFKVA3QKV8gvWjstGyU2dd+afE1Ph6EG5Xa2Az2CA==
   dependencies:
-    "@storybook/core" "8.6.7"
+    "@storybook/core" "8.6.9"
 
 stream-browserify@^2.0.1:
   version "2.0.2"
