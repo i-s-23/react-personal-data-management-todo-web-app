@@ -34,7 +34,7 @@
     "@storybook/addons": "^7.6.17",
     "@storybook/cli": "^8.6.9",
     "@storybook/preset-typescript": "^3.0.0",
-    "@storybook/react": "^8.6.7",
+    "@storybook/react": "^8.6.9",
     "@types/jest": "^29.5.14",
     "@types/node": "^22.13.13",
     "@types/react": "^18.3.13",
