@@ -2511,10 +2511,10 @@
     estraverse "^5.2.0"
     tiny-invariant "^1.3.1"
 
-"@storybook/addon-viewport@^8.6.7":
-  version "8.6.7"
-  resolved "https://registry.yarnpkg.com/@storybook/addon-viewport/-/addon-viewport-8.6.7.tgz#331de29e9f31858e0a8697a955deadcd57dcc838"
-  integrity sha512-kTrt6ByCbBIbqoRqQO9watDl5nSIKCC+R0/EmpEl6ZtzBV3l8trZHdvCHhIqOyv7nfaa7pIeTTG1GD6Gdrxk3w==
+"@storybook/addon-viewport@^8.6.9":
+  version "8.6.9"
+  resolved "https://registry.yarnpkg.com/@storybook/addon-viewport/-/addon-viewport-8.6.9.tgz#d0764f3def5ba4b1394ee5d3168bcca1937346a1"
+  integrity sha512-1xkozyB1zs3eSNTc8ePAMcajUfbKvNMTjs5LYdts2N1Ss0xeZ+K/gphfRg0GaYsNvRYi5piufag/niHCGkT3hA==
   dependencies:
     memoizerific "^1.11.3"
 
@@ -3472,11 +3472,6 @@
     "@storybook/client-logger" "7.6.17"
     "@storybook/global" "^5.0.0"
     memoizerific "^1.11.3"
-
-"@storybook/theming@8.6.7":
-  version "8.6.7"
-  resolved "https://registry.yarnpkg.com/@storybook/theming/-/theming-8.6.7.tgz#3de70c055253120d8accc187ae24a25bbd24b9a8"
-  integrity sha512-F/i4XS5bew9dvtNiHvDJF0mko1IUbPM9PUjTYPaw6cK8ytS0kdec703MsJ/GUA7seeEWBeGdZjV3ua0pys650A==
 
 "@storybook/theming@8.6.9":
   version "8.6.9"
