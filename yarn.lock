@@ -2421,14 +2421,14 @@
   dependencies:
     "@sinonjs/commons" "^1.7.0"
 
-"@storybook/addon-a11y@^8.6.7":
-  version "8.6.7"
-  resolved "https://registry.yarnpkg.com/@storybook/addon-a11y/-/addon-a11y-8.6.7.tgz#72fa2a7e3d86aea9f3d874a52a67b1c698fae7f5"
-  integrity sha512-/pGRa27AVpoFG0J2+PTKSQCk6ytbRkcR+5fi75iLlqgp7YZN9rVJ8SYyEXALf/B8Gw9hSk2uxCyT3dA7ZTy52Q==
+"@storybook/addon-a11y@^8.6.10":
+  version "8.6.10"
+  resolved "https://registry.yarnpkg.com/@storybook/addon-a11y/-/addon-a11y-8.6.10.tgz#407c28666ae51328beda585cc77c7c4f50002e86"
+  integrity sha512-g+p0soI03rshuLhBtjvRXfEuj0IxfX5RRIkHKaqpIKKRL8WVVdtLoxkEjOUo5zIAodmZKFEfYLC8+ELR7fmSjw==
   dependencies:
-    "@storybook/addon-highlight" "8.6.7"
+    "@storybook/addon-highlight" "8.6.10"
     "@storybook/global" "^5.0.0"
-    "@storybook/test" "8.6.7"
+    "@storybook/test" "8.6.10"
     axe-core "^4.2.0"
 
 "@storybook/addon-actions@*", "@storybook/addon-actions@^8.6.10":
@@ -2449,10 +2449,10 @@
   dependencies:
     "@storybook/global" "^5.0.0"
 
-"@storybook/addon-highlight@8.6.7":
-  version "8.6.7"
-  resolved "https://registry.yarnpkg.com/@storybook/addon-highlight/-/addon-highlight-8.6.7.tgz#32085dc7337c3bddbaa6259dfa496a677a3aaae8"
-  integrity sha512-4KE1RF4XfqII7XrJPgf/1W0t0EWRKmik5Rrpb6WofXfgZ2QYzLFnyESjf67/g2TMgDnle2drfa/pt5tGV4+I2Q==
+"@storybook/addon-highlight@8.6.10":
+  version "8.6.10"
+  resolved "https://registry.yarnpkg.com/@storybook/addon-highlight/-/addon-highlight-8.6.10.tgz#6de9c0e16326b13a714eab8ad86d346bdce33375"
+  integrity sha512-ZKl0yKzs/6xOpeDIiqHhfrJGQYA7jQ6cxO2nUm3zyqOnHZspef38VlqE63VttBq+mKnh9VbemmaTd2mUgQnm2A==
   dependencies:
     "@storybook/global" "^5.0.0"
 
@@ -3088,10 +3088,10 @@
   resolved "https://registry.yarnpkg.com/@storybook/global/-/global-5.0.0.tgz#b793d34b94f572c1d7d9e0f44fac4e0dbc9572ed"
   integrity sha512-FcOqPAXACP0I3oJ/ws6/rrPT9WGhu915Cg8D02a9YxLo0DE9zI+a9A5gRGvmQ09fiWPukqI8ZAEoQEdWUKMQdQ==
 
-"@storybook/instrumenter@8.6.7":
-  version "8.6.7"
-  resolved "https://registry.yarnpkg.com/@storybook/instrumenter/-/instrumenter-8.6.7.tgz#c0adb9341661acc359b0d6adcb3ffab3160904b1"
-  integrity sha512-FeQiV0g5crCWs0P1wKY4xZzb4PxAYNcrm2+9LLGVqwnC7qzrSCPf0p10MlveVfwsen1m6Wbqfe+wl21c31Hfmg==
+"@storybook/instrumenter@8.6.10":
+  version "8.6.10"
+  resolved "https://registry.yarnpkg.com/@storybook/instrumenter/-/instrumenter-8.6.10.tgz#a30e9c97bf5a01f1ff1ed19af07eb64efa947943"
+  integrity sha512-Hlps6V0lkhFMbgcJQRynVBne51ciG7Xv+YtiDCd0PQtvZu8+vVJr/ebWt3nCwpvkRHooYiud1ScA3K8McyA73w==
   dependencies:
     "@storybook/global" "^5.0.0"
     "@vitest/utils" "^2.1.1"
@@ -3422,13 +3422,13 @@
     read-pkg-up "^7.0.1"
     regenerator-runtime "^0.13.7"
 
-"@storybook/test@8.6.7":
-  version "8.6.7"
-  resolved "https://registry.yarnpkg.com/@storybook/test/-/test-8.6.7.tgz#53a4fc077e24c4d385abc4328896274584f14472"
-  integrity sha512-uF1JbBtdT7tuiXfEtHsUShBHIhm2vc0C39nKVJaTWyK9CybajXaj2Ny3IRa3oY9NKnklwGgN+kZ/Z9YiIOc4MQ==
+"@storybook/test@8.6.10":
+  version "8.6.10"
+  resolved "https://registry.yarnpkg.com/@storybook/test/-/test-8.6.10.tgz#8b8cef4c6158e30943c2d02956c83870b2294659"
+  integrity sha512-eCQueRB0SpwjnXcE5wmUNu2G7Z7nRzzHw+0QW2Yc3DoA5UwmOiuwTseZenQkD019dwvFJ87fHo1xXnDAamX1Tg==
   dependencies:
     "@storybook/global" "^5.0.0"
-    "@storybook/instrumenter" "8.6.7"
+    "@storybook/instrumenter" "8.6.10"
     "@testing-library/dom" "10.4.0"
     "@testing-library/jest-dom" "6.5.0"
     "@testing-library/user-event" "14.5.2"
@@ -3477,11 +3477,6 @@
   version "8.6.10"
   resolved "https://registry.yarnpkg.com/@storybook/theming/-/theming-8.6.10.tgz#0a24d38ca7d462ae965d59b04b831932edfa8a00"
   integrity sha512-4E5ArcJ/bhrWtlYzQDbtA3O3pha/Ys0Ja6X4waJQ5UJENzUMdVz6vTLSUHtG5hNRmSqreogxe4Ed88+0JtY7NQ==
-
-"@storybook/theming@8.6.9":
-  version "8.6.9"
-  resolved "https://registry.yarnpkg.com/@storybook/theming/-/theming-8.6.9.tgz#493a80bdf9b7ffedd3db02e0c28e6fa0ff2f1e90"
-  integrity sha512-FQafe66itGnIh0V42R65tgFKyz0RshpIs0pTrxrdByuB2yKsep+f8ZgKLJE3fCKw/Egw4bUuICo2m8d7uOOumA==
 
 "@storybook/types@7.6.17":
   version "7.6.17"
