@@ -2502,12 +2502,12 @@
     "@storybook/global" "^5.0.0"
     ts-dedent "^2.0.0"
 
-"@storybook/addon-storysource@^8.6.10":
-  version "8.6.10"
-  resolved "https://registry.yarnpkg.com/@storybook/addon-storysource/-/addon-storysource-8.6.10.tgz#5762c01377e6bd05d8176c5dc0fe0584e0cadc6c"
-  integrity sha512-XsbGzY0ZBGt8yDoAvrNpRlJgSAzaJtAFbEcDRG7SclU7fdl7PcM7RxtZRcBW4D75JmmTPgQ2WxZtLZpS5uK5ww==
+"@storybook/addon-storysource@^8.6.11":
+  version "8.6.11"
+  resolved "https://registry.yarnpkg.com/@storybook/addon-storysource/-/addon-storysource-8.6.11.tgz#8b356a810dacb7b32730ae63d8ef46d458c099aa"
+  integrity sha512-l7hvbHxVgFHMEqp6bcWDhsloHh/Cwg2nCf6tpD2mLrT3/ELnV5x42CbCe1JidXBwSXP3joEDCGlo45Jxkb5Gdg==
   dependencies:
-    "@storybook/source-loader" "8.6.10"
+    "@storybook/source-loader" "8.6.11"
     estraverse "^5.2.0"
     tiny-invariant "^1.3.1"
 
@@ -3374,10 +3374,10 @@
     core-js "^3.6.5"
     find-up "^4.1.0"
 
-"@storybook/source-loader@8.6.10":
-  version "8.6.10"
-  resolved "https://registry.yarnpkg.com/@storybook/source-loader/-/source-loader-8.6.10.tgz#b17d123003d03b3d1cd1352811aa10756436adef"
-  integrity sha512-Gk0PrTCPhcjocqcAPh/NMrv+E0v+WDdc2gqvKO9cyeX3CA7NGTyY53vQQVyf+KvCGW+3m4m0we+K1DzP0EqnLQ==
+"@storybook/source-loader@8.6.11":
+  version "8.6.11"
+  resolved "https://registry.yarnpkg.com/@storybook/source-loader/-/source-loader-8.6.11.tgz#bf01bb02efb1d084eb91dbb9a009de71ef83afe3"
+  integrity sha512-nmIVCDIudXyi3YenflhFgT+GZfI1/zgREcDI5Krz3C+62nUXDNOc86Cv+tjzhIr0LBINq4sQB+SPc/r5VWknuA==
   dependencies:
     es-toolkit "^1.22.0"
     estraverse "^5.2.0"
@@ -3472,11 +3472,6 @@
     "@storybook/client-logger" "7.6.17"
     "@storybook/global" "^5.0.0"
     memoizerific "^1.11.3"
-
-"@storybook/theming@8.6.10":
-  version "8.6.10"
-  resolved "https://registry.yarnpkg.com/@storybook/theming/-/theming-8.6.10.tgz#0a24d38ca7d462ae965d59b04b831932edfa8a00"
-  integrity sha512-4E5ArcJ/bhrWtlYzQDbtA3O3pha/Ys0Ja6X4waJQ5UJENzUMdVz6vTLSUHtG5hNRmSqreogxe4Ed88+0JtY7NQ==
 
 "@storybook/theming@8.6.11":
   version "8.6.11"
