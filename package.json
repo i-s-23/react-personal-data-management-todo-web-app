@@ -22,7 +22,7 @@
   "keywords": [],
   "author": "",
   "devDependencies": {
-    "@babel/core": "^7.26.10",
+    "@babel/core": "^7.27.1",
     "@storybook/addon-a11y": "^8.6.12",
     "@storybook/addon-actions": "^8.6.12",
     "@storybook/addon-console": "^3.0.0",
