@@ -2845,11 +2845,6 @@
     regenerator-runtime "^0.13.7"
     util-deprecate "^1.0.2"
 
-"@storybook/components@8.6.14":
-  version "8.6.14"
-  resolved "https://registry.yarnpkg.com/@storybook/components/-/components-8.6.14.tgz#3cfc5e120f3dc38990fc37b34a22eff1e3f4bdfb"
-  integrity sha512-HNR2mC5I4Z5ek8kTrVZlIY/B8gJGs5b3XdZPBPBopTIN6U/YHXiDyOjY3JlaS4fSG1fVhp/Qp1TpMn1w/9m1pw==
-
 "@storybook/core-client@6.5.16":
   version "6.5.16"
   resolved "https://registry.yarnpkg.com/@storybook/core-client/-/core-client-6.5.16.tgz#ed2328fd38c6111fe887f6a91b28d9dc2b17092a"
@@ -3099,11 +3094,6 @@
     telejson "^7.2.0"
     ts-dedent "^2.0.0"
 
-"@storybook/manager-api@8.6.14":
-  version "8.6.14"
-  resolved "https://registry.yarnpkg.com/@storybook/manager-api/-/manager-api-8.6.14.tgz#1e0740193fbfd4a66e9ff5f75c7f976e16028752"
-  integrity sha512-ez0Zihuy17udLbfHZQXkGqwtep0mSGgHcNzGN7iZrMP1m+VmNo+7aGCJJdvXi7+iU3yq8weXSQFWg5DqWgLS7g==
-
 "@storybook/manager-webpack4@6.5.16":
   version "6.5.16"
   resolved "https://registry.yarnpkg.com/@storybook/manager-webpack4/-/manager-webpack4-6.5.16.tgz#7033228d38f048ceff3d403ba918d7f206b926a5"
@@ -3216,11 +3206,6 @@
     ts-dedent "^2.0.0"
     util-deprecate "^1.0.2"
 
-"@storybook/preview-api@8.6.14":
-  version "8.6.14"
-  resolved "https://registry.yarnpkg.com/@storybook/preview-api/-/preview-api-8.6.14.tgz#b4a1eda7ecf17c4d3a07aa9a42ed1251de121f74"
-  integrity sha512-2GhcCd4dNMrnD7eooEfvbfL4I83qAqEyO0CO7JQAmIO6Rxb9BsOLLI/GD5HkvQB73ArTJ+PT50rfaO820IExOQ==
-
 "@storybook/preview-web@6.5.16":
   version "6.5.16"
   resolved "https://registry.yarnpkg.com/@storybook/preview-web/-/preview-web-6.5.16.tgz#1d32a72be25776f9597e33ffc1914f3430fae689"
@@ -3256,22 +3241,18 @@
     react-docgen-typescript "^2.1.1"
     tslib "^2.0.0"
 
-"@storybook/react-dom-shim@8.6.14":
-  version "8.6.14"
-  resolved "https://registry.yarnpkg.com/@storybook/react-dom-shim/-/react-dom-shim-8.6.14.tgz#02fc8aeab701040744d93b6ef46b9e5727123370"
-  integrity sha512-0hixr3dOy3f3M+HBofp3jtMQMS+sqzjKNgl7Arfuj3fvjmyXOks/yGjDImySR4imPtEllvPZfhiQNlejheaInw==
+"@storybook/react-dom-shim@9.0.0":
+  version "9.0.0"
+  resolved "https://registry.yarnpkg.com/@storybook/react-dom-shim/-/react-dom-shim-9.0.0.tgz#8e6b5601fbb88ec758c4372c6425a0296a28fc59"
+  integrity sha512-ywg3wX5MkbNBT9baV4YNh7f03l6aXdg4sPYa+DubPLfcc1EFCR88mIqMilah8KbKsgGIPZMqX7vCBJdg4e9hBQ==
 
-"@storybook/react@*", "@storybook/react@^8.6.14":
-  version "8.6.14"
-  resolved "https://registry.yarnpkg.com/@storybook/react/-/react-8.6.14.tgz#80136abcbc6e96ef5f747aef5c4e6afc40b3dce4"
-  integrity sha512-BOepx5bBFwl/CPI+F+LnmMmsG1wQYmrX/UQXgUbHQUU9Tj7E2ndTnNbpIuSLc8IrM03ru+DfwSg1Co3cxWtT+g==
+"@storybook/react@*", "@storybook/react@^9.0.0":
+  version "9.0.0"
+  resolved "https://registry.yarnpkg.com/@storybook/react/-/react-9.0.0.tgz#762a8e09479bbaa8ca876ea9a61c8c79b7b9a801"
+  integrity sha512-GhiV7lnMOezZXUPbgxlDXK5jSQq63hgvPDku3Qw/r3w+LZUIihO8hMPK7Ml1o0BnLu6SwOh4Zp0nSyb8En1U9g==
   dependencies:
-    "@storybook/components" "8.6.14"
     "@storybook/global" "^5.0.0"
-    "@storybook/manager-api" "8.6.14"
-    "@storybook/preview-api" "8.6.14"
-    "@storybook/react-dom-shim" "8.6.14"
-    "@storybook/theming" "8.6.14"
+    "@storybook/react-dom-shim" "9.0.0"
 
 "@storybook/react@^6.5.9":
   version "6.5.16"
