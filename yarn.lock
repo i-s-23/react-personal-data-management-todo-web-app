@@ -2505,10 +2505,10 @@
     estraverse "^5.2.0"
     tiny-invariant "^1.3.1"
 
-"@storybook/addon-viewport@^9.0.4":
-  version "9.0.4"
-  resolved "https://registry.yarnpkg.com/@storybook/addon-viewport/-/addon-viewport-9.0.4.tgz#3b3c3c9722b5901b887c139cbb9b95b5ce7fbfbe"
-  integrity sha512-IX6ZWCIQpalGG1+10olqkO2taykbrbGT5Qoz4ojoW0xkwhdZ8fhhZ/074Y9JQ4aXx6lNKfq1ejHNd5wMQ19hdQ==
+"@storybook/addon-viewport@^9.0.5":
+  version "9.0.5"
+  resolved "https://registry.yarnpkg.com/@storybook/addon-viewport/-/addon-viewport-9.0.5.tgz#8355f5bb4686c3c41a33ffb5a225373758328a09"
+  integrity sha512-kEujsRN4WlXXkQMjJIdp8+uaQ4Isbpbfbvitb7vFC4elTmWWbWt9OkwbzsJHRILi8oDqDrqZzvs4GRtQN8ndzg==
 
 "@storybook/addons@5.3.21":
   version "5.3.21"
