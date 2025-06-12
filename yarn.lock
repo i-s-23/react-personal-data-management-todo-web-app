@@ -2703,16 +2703,16 @@
     telejson "^7.2.0"
     tiny-invariant "^1.3.1"
 
-"@storybook/cli@^9.0.8":
-  version "9.0.8"
-  resolved "https://registry.yarnpkg.com/@storybook/cli/-/cli-9.0.8.tgz#99eafe241a7ae9bd4c9d2a416fe5fec98e2be81d"
-  integrity sha512-jZ9iUoqvIKw0J9szzEJDFH2FsQ8jCRWw7v3JQ/yWHfIQn4YedR5UIJh4JKoMYP8uEpBI9pZkfsqcgTq6ao7d/A==
+"@storybook/cli@^9.0.9":
+  version "9.0.9"
+  resolved "https://registry.yarnpkg.com/@storybook/cli/-/cli-9.0.9.tgz#b8c680b977ad17ab5dc1dd5625859ba6d6b9fd56"
+  integrity sha512-tgQEHdLjHwmNK7tZJhxcUMtVGepe1ZYb5EMOLy3+ji4hFyXV/RqrwK3Zjq+l3fPxDRCfZPuXOJJLLXJGYs+IsA==
   dependencies:
     "@babel/types" "^7.24.0"
-    "@storybook/codemod" "9.0.8"
+    "@storybook/codemod" "9.0.9"
     "@types/semver" "^7.3.4"
     commander "^12.1.0"
-    create-storybook "9.0.8"
+    create-storybook "9.0.9"
     cross-spawn "^7.0.6"
     envinfo "^7.7.3"
     execa "^9.5.2"
@@ -2723,7 +2723,7 @@
     p-limit "^6.2.0"
     prompts "^2.4.0"
     semver "^7.3.7"
-    storybook "9.0.8"
+    storybook "9.0.9"
     tiny-invariant "^1.3.1"
     ts-dedent "^2.0.0"
 
@@ -2775,10 +2775,10 @@
   dependencies:
     "@storybook/global" "^5.0.0"
 
-"@storybook/codemod@9.0.8":
-  version "9.0.8"
-  resolved "https://registry.yarnpkg.com/@storybook/codemod/-/codemod-9.0.8.tgz#5f43d260bd4602e361ee1dfa204e8bd47a7c5881"
-  integrity sha512-+SIdw6T3HRtqASo5Y2IVu239fTkbk9UUqUHmghX6YAtaKos4HXNpwVk8ZNEiWYCUjqDlIDFEtd8Gv8wi2X5ZXw==
+"@storybook/codemod@9.0.9":
+  version "9.0.9"
+  resolved "https://registry.yarnpkg.com/@storybook/codemod/-/codemod-9.0.9.tgz#727a84a77b7d491c62298dcb6226d923c1fea9e6"
+  integrity sha512-WLlL0BwnJ1CN6mmWlJVJYX1zgYp3WBBt0ntB5eoVKLLVyW6+m3Mi60vHx30CIAXKwmQKOgtvCg8ce4QRhtFiSA==
   dependencies:
     "@babel/core" "^7.24.4"
     "@babel/preset-env" "^7.24.4"
@@ -2789,7 +2789,7 @@
     globby "^14.0.1"
     jscodeshift "^0.15.1"
     prettier "^3.5.3"
-    storybook "9.0.8"
+    storybook "9.0.9"
     tiny-invariant "^1.3.1"
 
 "@storybook/components@5.3.21":
@@ -6476,10 +6476,10 @@ create-react-context@0.3.0:
     gud "^1.0.0"
     warning "^4.0.3"
 
-create-storybook@9.0.8:
-  version "9.0.8"
-  resolved "https://registry.yarnpkg.com/create-storybook/-/create-storybook-9.0.8.tgz#937b4473230e14643e39c5a47314ed9e82006960"
-  integrity sha512-MobzDQop3WT7TBWs6wresMkRSertW6Z4aOfGtkbEZRttFDzdgRZx8q6BqHItmVINYfXl/hOHBHugo5YdiUXT6A==
+create-storybook@9.0.9:
+  version "9.0.9"
+  resolved "https://registry.yarnpkg.com/create-storybook/-/create-storybook-9.0.9.tgz#a8abb154737577777c5970931271131a1a183bda"
+  integrity sha512-kFD3g/sHOaj+XqPGomILuJ2DWwsmihvAzF7AzMgV/6uQTvA2hS737RS570XkqXfhn3iRSTZ9U/e7enMM9oDsAw==
   dependencies:
     semver "^7.6.2"
 
@@ -15121,10 +15121,10 @@ store2@^2.12.0, store2@^2.14.2, store2@^2.7.1:
   resolved "https://registry.yarnpkg.com/store2/-/store2-2.14.4.tgz#81b313abaddade4dcd7570c5cc0e3264a8f7a242"
   integrity sha512-srTItn1GOvyvOycgxjAnPA63FZNwy0PTyUBFMHRM+hVFltAeoh0LmNBz9SZqUS9mMqGk8rfyWyXn3GH5ReJ8Zw==
 
-storybook@9.0.8:
-  version "9.0.8"
-  resolved "https://registry.yarnpkg.com/storybook/-/storybook-9.0.8.tgz#c7c7f2f087ea455f18f8f158aba248577465177e"
-  integrity sha512-GlOB3HAtzRYc237+o46nnETNkc2Qckh3UrIJ1rJyAzagIlPWau/jTxjSz76sqRODEnt01m8CyIkw3PGv0q1UpQ==
+storybook@9.0.9:
+  version "9.0.9"
+  resolved "https://registry.yarnpkg.com/storybook/-/storybook-9.0.9.tgz#9131fd2e67def87dacb1f374d3c7ea7a6d3494d8"
+  integrity sha512-RYDKWD6X4ksYA+ASI1TRt2uB6681vhXGll5ofK9YUA5nrLd4hsp0yanNE2owMtaEhDATutpLKS+/+iFzPU8M2g==
   dependencies:
     "@storybook/global" "^5.0.0"
     "@testing-library/jest-dom" "^6.6.3"
