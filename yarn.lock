@@ -2526,10 +2526,10 @@
     react-lifecycles-compat "^3.0.4"
     react-select "^5.7.0"
 
-"@storybook/addon-links@^10.0.3":
-  version "10.0.3"
-  resolved "https://registry.yarnpkg.com/@storybook/addon-links/-/addon-links-10.0.3.tgz#76d59572225033af43dee6faeaf1c7f360472628"
-  integrity sha512-PB/UzN3oDoIzzwfI7ctefiWXhiwMZfQ177v7X7T5vadIVY+6+j3eJb8xt2UnMU+YjHZnp0pq8aFCxCUpKMjAew==
+"@storybook/addon-links@^10.0.4":
+  version "10.0.4"
+  resolved "https://registry.yarnpkg.com/@storybook/addon-links/-/addon-links-10.0.4.tgz#cfbce1f03908f6d58e7daa0e06259dcf81184eb6"
+  integrity sha512-8bhoKkXedqZzWWfOmUJJSSOTIHt76QDtNys0py3lZD4JeowIuf7MKw64EMAMd2vc9g3BMoYkvA8O+Tq6in4zjA==
   dependencies:
     "@storybook/global" "^5.0.0"
 
