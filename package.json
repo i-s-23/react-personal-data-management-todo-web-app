@@ -48,7 +48,7 @@
     "babel-loader": "^10.0.0",
     "eslint": "^9.39.1",
     "eslint-config-airbnb-typescript-prettier": "^5.0.0",
-    "prettier": "^3.7.1",
+    "prettier": "^3.7.3",
     "react-docgen-typescript-loader": "^3.7.2",
     "react-modal": "^3.16.3",
     "ts-loader": "^9.5.4",
