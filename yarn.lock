@@ -2745,17 +2745,17 @@
     telejson "^7.2.0"
     tiny-invariant "^1.3.1"
 
-"@storybook/cli@^10.1.2":
-  version "10.1.2"
-  resolved "https://registry.yarnpkg.com/@storybook/cli/-/cli-10.1.2.tgz#39edad15c5d617e24735ea6b14333e681843bfe8"
-  integrity sha512-SjhUT2/WGDhL6uIhDnaXSS2pfi0oWLyQ79iiKmm5NrJQFjLnpqDqyN28KOnISDncZB84lz9AzbOMnbYxRro3vA==
+"@storybook/cli@^10.1.3":
+  version "10.1.3"
+  resolved "https://registry.yarnpkg.com/@storybook/cli/-/cli-10.1.3.tgz#12b70db88df1f1f439c8bef6a668ca3ad2ced840"
+  integrity sha512-WYQNxl9pWzHly51EN1Ln8byFwPM9BehD2ijBc5/oUP9fyFk8t6Bo7jDI0rgNv+jiRsZ9LfvGpHx8UZIhdgX8tw==
   dependencies:
-    "@storybook/codemod" "10.1.2"
+    "@storybook/codemod" "10.1.3"
     "@types/semver" "^7.3.4"
     commander "^14.0.1"
-    create-storybook "10.1.2"
+    create-storybook "10.1.3"
     jscodeshift "^0.15.1"
-    storybook "10.1.2"
+    storybook "10.1.3"
     ts-dedent "^2.0.0"
 
 "@storybook/client-api@6.5.16":
@@ -2806,17 +2806,17 @@
   dependencies:
     "@storybook/global" "^5.0.0"
 
-"@storybook/codemod@10.1.2":
-  version "10.1.2"
-  resolved "https://registry.yarnpkg.com/@storybook/codemod/-/codemod-10.1.2.tgz#7a722a971dfe3bc4ada767fc68b8e79deca7acd1"
-  integrity sha512-W+KJs3fDJc9ZMpWqLVPPgrlPpTPa9LldcfdD83utyJo+sXk1W3oyQIyGJePr+OPqMFzuF6SRr1HsEnqYs3e/Eg==
+"@storybook/codemod@10.1.3":
+  version "10.1.3"
+  resolved "https://registry.yarnpkg.com/@storybook/codemod/-/codemod-10.1.3.tgz#dcf8725be069a127a116290d7cdbca3d6448202b"
+  integrity sha512-QnPBF1nlNQ5nqKTs7aPSo4ZLyEl8wGaslXdRynhR8NcU1EdLL7+jClKKaUs54jfCaa+xYW4U+5TdKUMcIfhlQg==
   dependencies:
     "@types/cross-spawn" "^6.0.6"
     cross-spawn "^7.0.6"
     es-toolkit "^1.36.0"
     jscodeshift "^0.15.1"
     prettier "^3.5.3"
-    storybook "10.1.2"
+    storybook "10.1.3"
     tiny-invariant "^1.3.1"
     tinyglobby "^0.2.13"
 
@@ -6573,13 +6573,13 @@ create-react-context@0.3.0:
     gud "^1.0.0"
     warning "^4.0.3"
 
-create-storybook@10.1.2:
-  version "10.1.2"
-  resolved "https://registry.yarnpkg.com/create-storybook/-/create-storybook-10.1.2.tgz#1cfc2db076b4c147493652c481fcee9af1b15847"
-  integrity sha512-igoes48+cZOmYjQzKyKa8YIAMJGy5TtPKky/gWeO8sxm9x0eWSaCms8T4fDtiMZtyv8Yz2Tvg8XUd5IC4K7n5g==
+create-storybook@10.1.3:
+  version "10.1.3"
+  resolved "https://registry.yarnpkg.com/create-storybook/-/create-storybook-10.1.3.tgz#71443993385b9f2f05b37927958f65400e6957eb"
+  integrity sha512-PT5N/mTt2cEmu8n0YnIf9R3GFwb2bl7qUm/LlrSipTm/Uxiux358hnKq9mtXCSJn94QteF0zwA8IWm1PfrbTpA==
   dependencies:
     semver "^7.6.2"
-    storybook "10.1.2"
+    storybook "10.1.3"
 
 cross-spawn@^7.0.0, cross-spawn@^7.0.2, cross-spawn@^7.0.3, cross-spawn@^7.0.6:
   version "7.0.6"
@@ -15226,10 +15226,10 @@ store2@^2.12.0, store2@^2.14.2, store2@^2.7.1:
   resolved "https://registry.yarnpkg.com/store2/-/store2-2.14.4.tgz#81b313abaddade4dcd7570c5cc0e3264a8f7a242"
   integrity sha512-srTItn1GOvyvOycgxjAnPA63FZNwy0PTyUBFMHRM+hVFltAeoh0LmNBz9SZqUS9mMqGk8rfyWyXn3GH5ReJ8Zw==
 
-storybook@10.1.2:
-  version "10.1.2"
-  resolved "https://registry.yarnpkg.com/storybook/-/storybook-10.1.2.tgz#cb596d76ef04d248509f6fc16966f8fc6326f50c"
-  integrity sha512-yFL15WVQJeagmptyRadd2cwJlMVCo6xPoTPt/R+lQXIJmsTDHOFl5cZooIsvgALe3hTi5hsuVL3pG2bPEUuYGg==
+storybook@10.1.3:
+  version "10.1.3"
+  resolved "https://registry.yarnpkg.com/storybook/-/storybook-10.1.3.tgz#83bd3320696adbba3dfa62d89eecba82d8745948"
+  integrity sha512-Yoo/LB1OvwwMdKkChFtUXuOKLw/QK+b25pIkAFgZex+0IIXi0dREYEQAvJKd/gIuuqwPksy91p1HeHddv2NXQA==
   dependencies:
     "@storybook/global" "^5.0.0"
     "@storybook/icons" "^2.0.0"
