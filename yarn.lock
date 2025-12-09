@@ -2473,10 +2473,10 @@
   dependencies:
     "@sinonjs/commons" "^1.7.0"
 
-"@storybook/addon-a11y@^10.1.4":
-  version "10.1.4"
-  resolved "https://registry.yarnpkg.com/@storybook/addon-a11y/-/addon-a11y-10.1.4.tgz#09a6f5f66645820ba8435b764a25c3d8a4f1c21d"
-  integrity sha512-go7SshAyu+pnK7Prq3UnCBCB7DxAQkPMnebsv3fnboeTZHnDXQqfmHdZ15o+pH0JsCedC05RYsdbjd2rMHMvFQ==
+"@storybook/addon-a11y@^10.1.5":
+  version "10.1.5"
+  resolved "https://registry.yarnpkg.com/@storybook/addon-a11y/-/addon-a11y-10.1.5.tgz#9fc95df597243d0617a4d6f36d4534f949474988"
+  integrity sha512-dMUrkuQyvDfD6SdvV7F7cbjRrhHN0kqCNhRfg1i1IJuLuck6kiALpx8176KhWBcAkN/0J/1V75n7+F9YU/JlPA==
   dependencies:
     "@storybook/global" "^5.0.0"
     axe-core "^4.2.0"
