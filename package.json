@@ -22,7 +22,7 @@
   "keywords": [],
   "author": "",
   "devDependencies": {
-    "@babel/core": "^7.28.5",
+    "@babel/core": "^7.28.6",
     "@storybook/addon-a11y": "^10.1.11",
     "@storybook/addon-actions": "^9.0.8",
     "@storybook/addon-console": "^3.0.0",
@@ -36,7 +36,7 @@
     "@storybook/preset-typescript": "^3.0.0",
     "@storybook/react": "^10.1.11",
     "@types/jest": "^30.0.0",
-    "@types/node": "^25.0.3",
+    "@types/node": "^25.0.7",
     "@types/react": "^18.3.13",
     "@types/react-dom": "^18.3.1",
     "@types/react-modal": "^3.10.5",
@@ -55,6 +55,6 @@
     "typescript": "^5.9.3",
     "webpack": "^5.104.1",
     "webpack-cli": "^6.0.1",
-    "webpack-dev-server": "^5.2.2"
+    "webpack-dev-server": "^5.2.3"
   }
 }
