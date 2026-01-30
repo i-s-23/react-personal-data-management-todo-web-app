@@ -15,7 +15,7 @@
   },
   "dependencies": {
     "react": "^18.3.1",
-    "react-dom": "^18.3.1",
+    "react-dom": "^19.2.4",
     "react-scripts": "5.0.1",
     "styled-components": "^6.3.8"
   },
@@ -38,7 +38,7 @@
     "@types/jest": "^30.0.0",
     "@types/node": "^25.1.0",
     "@types/react": "^18.3.13",
-    "@types/react-dom": "^18.3.1",
+    "@types/react-dom": "^19.2.3",
     "@types/react-modal": "^3.10.5",
     "@types/storybook__addon-actions": "^5.2.1",
     "@types/storybook__addon-info": "^5.2.9",
