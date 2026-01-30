@@ -14,7 +14,7 @@
     "build-storybook": "build-storybook"
   },
   "dependencies": {
-    "react": "^18.3.1",
+    "react": "^19.2.4",
     "react-dom": "^18.3.1",
     "react-scripts": "5.0.1",
     "styled-components": "^6.3.8"
@@ -37,7 +37,7 @@
     "@storybook/react": "^10.2.3",
     "@types/jest": "^30.0.0",
     "@types/node": "^25.1.0",
-    "@types/react": "^18.3.13",
+    "@types/react": "^19.2.10",
     "@types/react-dom": "^18.3.1",
     "@types/react-modal": "^3.10.5",
     "@types/storybook__addon-actions": "^5.2.1",
