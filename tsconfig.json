@@ -7,7 +7,7 @@
     "jsx": "react",
     "strict": true,
     "rootDirs": ["src"],
-    "types": ["react"],
+
     "esModuleInterop": true,
     "skipLibCheck": true
   },
