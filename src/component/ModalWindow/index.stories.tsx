@@ -1,26 +1,30 @@
-import React from "react";
+import React from 'react';
+import type { Meta, StoryObj } from '@storybook/react';
 
-import { storiesOf } from "@storybook/react";
-import { withInfo } from "@storybook/addon-info";
-import { withA11y } from "@storybook/addon-a11y";
-import { withKnobs, boolean } from "@storybook/addon-knobs";
-import { action } from "@storybook/addon-actions";
+import ModalWindow from '.';
 
-import ModalWindow from ".";
-
-const testFunc = (): void => {
-  action("clicked");
+const meta: Meta<typeof ModalWindow> = {
+  title: 'Components/ModalWindow',
+  component: ModalWindow,
+  tags: ['autodocs'],
+  // Define args and argTypes for props
+  argTypes: {
+    modalIsOpen: {
+      control: 'boolean',
+      name: 'ウインドウ表示', // This is how you can name it in the controls panel
+    },
+    handleModalClose: { action: 'handleModalClose' },
+    handleModalConfirm: { action: 'handleModalConfirm' },
+  },
 };
 
-const ModalWindowcomponents = storiesOf("Components", module);
-ModalWindowcomponents.addDecorator(withKnobs)
-  .addDecorator(withA11y)
-  .addDecorator(withInfo)
-  .addParameters({ info: { inline: true } })
-  .add("ModalWindow", () => (
-    <ModalWindow
-      modalIsOpen={boolean("ウインドウ表示", true)}
-      handleModalClose={testFunc}
-      handleModalConfirm={testFunc}
-    />
-  ));
+export default meta;
+
+type Story = StoryObj<typeof meta>;
+
+// Default story
+export const Default: Story = {
+  args: {
+    modalIsOpen: true,
+  },
+};

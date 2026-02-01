@@ -1,15 +1,16 @@
 import React from "react";
-
-import { storiesOf } from "@storybook/react";
-import { withInfo } from "@storybook/addon-info";
-import { withA11y } from "@storybook/addon-a11y";
-import { withKnobs } from "@storybook/addon-knobs";
+import type { Meta, StoryObj } from "@storybook/react";
 
 import Header from ".";
 
-const Headercomponents = storiesOf("Components", module);
-Headercomponents.addDecorator(withKnobs)
-  .addDecorator(withA11y)
-  .addDecorator(withInfo)
-  .addParameters({ info: { inline: true } })
-  .add("Header", () => <Header />);
+const meta: Meta<typeof Header> = {
+  title: "Components/Header",
+  component: Header,
+  tags: ["autodocs"],
+};
+
+export default meta;
+
+type Story = StoryObj<typeof meta>;
+
+export const Default: Story = {};
