@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import ModalWindow, { ModalFormVo } from "../ModalWindow";
+import ModalWindow, { ModalFormVo } from "../ModalWindow/index";
 
 export interface personalDataVo {
   name: string;

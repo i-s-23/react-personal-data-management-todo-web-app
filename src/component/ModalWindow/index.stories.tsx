@@ -1,7 +1,7 @@
 import React from 'react';
 import type { Meta, StoryObj } from '@storybook/react';
 
-import ModalWindow from '.';
+import ModalWindow from './index';
 
 const meta: Meta<typeof ModalWindow> = {
   title: 'Components/ModalWindow',
