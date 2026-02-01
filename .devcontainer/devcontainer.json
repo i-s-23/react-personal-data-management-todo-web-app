@@ -1,7 +1,9 @@
 {
 	"name": "React Dockerfile",
-	"context": "..",
-	"dockerFile": "../Dockerfile",
+	"image": "node:24-bookworm",
+	"workspaceFolder": "/workspaces/${localWorkspaceFolderBasename}",
+	// "context": "..",
+	// "dockerFile": "../Dockerfile",
 	"customizations": {
 		"vscode": {
 			"settings": {},

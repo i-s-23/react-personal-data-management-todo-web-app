@@ -13,7 +13,16 @@ module.exports = {
   },
 
   module: {
-    rules: [{ test: /\.tsx?$/, loader: "ts-loader" }]
+    rules: [
+      {
+        test: /\.tsx?$/,
+        loader: "ts-loader",
+        exclude: /\.stories\.tsx?$/,
+        options: {
+          transpileOnly: true
+        }
+      }
+    ]
   },
 
   resolve: {
