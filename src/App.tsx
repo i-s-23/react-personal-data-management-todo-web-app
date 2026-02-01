@@ -1,5 +1,5 @@
 import * as React from "react";
-import Header from "./component/Header";
+import Header from "./component/Header/index";
 
 const App: React.FC = () => {
   return <Header />;
