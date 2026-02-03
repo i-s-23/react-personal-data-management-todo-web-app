@@ -1453,6 +1453,17 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@storybook/react-dom-shim@npm:10.2.4":
+  version: 10.2.4
+  resolution: "@storybook/react-dom-shim@npm:10.2.4"
+  peerDependencies:
+    react: ^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0
+    react-dom: ^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0
+    storybook: ^10.2.4
+  checksum: 10c0/08c30ad95a10ac228a3f44bf54efe17d18e48597c57a980b9d12fadb3bb23b79cc5a857143c27d18b57658e0b49029267d2a501a26e2867f4eadbbd3fbdd455e
+  languageName: node
+  linkType: hard
+
 "@storybook/react-dom-shim@npm:8.6.15":
   version: 8.6.15
   resolution: "@storybook/react-dom-shim@npm:8.6.15"
@@ -1483,7 +1494,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@storybook/react@npm:10.2.3, @storybook/react@npm:^10.2.3":
+"@storybook/react@npm:10.2.3":
   version: 10.2.3
   resolution: "@storybook/react@npm:10.2.3"
   dependencies:
@@ -1499,6 +1510,25 @@ __metadata:
     typescript:
       optional: true
   checksum: 10c0/649afeb7dd415ce3ebe19838c061cc90d3f4edef15333bb60b03a5223a56eb3d3dd8cd08ebf4c3cbd6fe5078cae94cc980e7e09d23fbb2e79ca44874154e5505
+  languageName: node
+  linkType: hard
+
+"@storybook/react@npm:^10.2.4":
+  version: 10.2.4
+  resolution: "@storybook/react@npm:10.2.4"
+  dependencies:
+    "@storybook/global": "npm:^5.0.0"
+    "@storybook/react-dom-shim": "npm:10.2.4"
+    react-docgen: "npm:^8.0.2"
+  peerDependencies:
+    react: ^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0
+    react-dom: ^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0
+    storybook: ^10.2.4
+    typescript: ">= 4.9.x"
+  peerDependenciesMeta:
+    typescript:
+      optional: true
+  checksum: 10c0/3b449c5337753c64763adb92cc59b7e7507d25ee8f576785108349e40772b08ba7f2bf2f5ec7b53bad5f637c9a8713565d2e4de5958298cb6b9db4187f4e5776
   languageName: node
   linkType: hard
 
@@ -7424,7 +7454,7 @@ __metadata:
     "@storybook/addon-interactions": "npm:8.6.15"
     "@storybook/addon-onboarding": "npm:^10.2.3"
     "@storybook/blocks": "npm:8.6.15"
-    "@storybook/react": "npm:^10.2.3"
+    "@storybook/react": "npm:^10.2.4"
     "@storybook/react-webpack5": "npm:^10.2.3"
     "@storybook/test": "npm:8.6.15"
     "@types/jest": "npm:^30.0.0"
