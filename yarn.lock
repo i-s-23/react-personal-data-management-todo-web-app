@@ -4433,15 +4433,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-storybook@npm:^10.2.3":
-  version: 10.2.3
-  resolution: "eslint-plugin-storybook@npm:10.2.3"
+"eslint-plugin-storybook@npm:^10.2.4":
+  version: 10.2.4
+  resolution: "eslint-plugin-storybook@npm:10.2.4"
   dependencies:
     "@typescript-eslint/utils": "npm:^8.48.0"
   peerDependencies:
     eslint: ">=8"
-    storybook: ^10.2.3
-  checksum: 10c0/6c791b8b8f5133969f7c1aef6e0ddbb3cb8631b6b74a34bd74a2ca9a711f009715e387646a5db61132647a48706b2f83ff4c6583ac50c6b2f45b6b3b7ca6c8da
+    storybook: ^10.2.4
+  checksum: 10c0/cabe8e8054174084bfa7ee3d3ac7d0be3e760ed124995067df5f8a1b94c289d48ddf97ad8756cb51b814edc25efb8d38200026c8fffad9d7d4b1cfce34cd5ec7
   languageName: node
   linkType: hard
 
@@ -7470,7 +7470,7 @@ __metadata:
     eslint-config-airbnb-base: "npm:^15.0.0"
     eslint-config-airbnb-typescript-prettier: "npm:^5.0.0"
     eslint-plugin-import: "npm:^2.32.0"
-    eslint-plugin-storybook: "npm:^10.2.3"
+    eslint-plugin-storybook: "npm:^10.2.4"
     prettier: "npm:^3.8.1"
     prop-types: "npm:15.8.1"
     react: "npm:^19.2.4"
