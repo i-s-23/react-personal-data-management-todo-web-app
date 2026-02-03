@@ -1251,12 +1251,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@storybook/addon-onboarding@npm:^10.2.3":
-  version: 10.2.3
-  resolution: "@storybook/addon-onboarding@npm:10.2.3"
+"@storybook/addon-onboarding@npm:^10.2.4":
+  version: 10.2.4
+  resolution: "@storybook/addon-onboarding@npm:10.2.4"
   peerDependencies:
-    storybook: ^10.2.3
-  checksum: 10c0/dca8510007b41302caa430e88d79d1716b457520343d53cfaec8a8fd894c080976ff067cb7446eeca9ad915509fdeae9887ba2ab2cbad18b929020a1fe226fbb
+    storybook: ^10.2.4
+  checksum: 10c0/4d14c2402e68a9fddae51542fbb892f90acd9ba7fb6ba2e47992a3c5da68580f11dcc255ffffd8bcf13bff8ddee450b8b320d727e20e3a11ce3c4fd5043cebb2
   languageName: node
   linkType: hard
 
@@ -7452,7 +7452,7 @@ __metadata:
     "@babel/core": "npm:^7.29.0"
     "@storybook/addon-essentials": "npm:8.6.15"
     "@storybook/addon-interactions": "npm:8.6.15"
-    "@storybook/addon-onboarding": "npm:^10.2.3"
+    "@storybook/addon-onboarding": "npm:^10.2.4"
     "@storybook/blocks": "npm:8.6.15"
     "@storybook/react": "npm:^10.2.4"
     "@storybook/react-webpack5": "npm:^10.2.3"
