@@ -27,7 +27,7 @@
     "@storybook/addon-onboarding": "^10.2.6",
     "@storybook/blocks": "8.6.15",
     "@storybook/react": "^10.2.7",
-    "@storybook/react-webpack5": "^10.2.4",
+    "@storybook/react-webpack5": "^10.2.7",
     "@storybook/test": "8.6.15",
     "@types/jest": "^30.0.0",
     "@types/node": "^25.2.0",
