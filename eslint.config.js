@@ -1,17 +1,40 @@
 import globals from "globals";
 import tseslint from "typescript-eslint";
 import pluginReact from "eslint-plugin-react";
-import airbnb from "eslint-config-airbnb-base";
+import importPlugin from "eslint-plugin-import";
+import jsxA11y from "eslint-plugin-jsx-a11y";
 
 export default [
+  {
+    ignores: ["dist", "*.js"],
+  },
   {
     languageOptions: {
       globals: globals.browser,
     },
   },
-  airbnb,
   ...tseslint.configs.recommended,
-  pluginReact.configs.flat.recommended,
+  {
+    ...pluginReact.configs.flat.recommended,
+    settings: {
+      react: {
+        version: "detect"
+      }
+    }
+  },
+  {
+    plugins: {
+      import: importPlugin,
+      "jsx-a11y": jsxA11y,
+    },
+    settings: {
+      "import/resolver": {
+        node: {
+          extensions: [".js", ".jsx", ".ts", ".tsx"]
+        }
+      }
+    }
+  },
   {
     rules: {
         "import/extensions": [
