@@ -24,7 +24,7 @@ interface Props {
   handleModalConfirm: (value: ModalFormVo) => void;
 }
 
-Modal.setAppElement("#root");
+
 const ModalWindow: React.FC<Props> = (props: Props) => {
   const { modalIsOpen } = props;
   const [modalForm, setModalForm] = useState<ModalFormVo | undefined>(
