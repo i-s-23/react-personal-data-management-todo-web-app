@@ -18,16 +18,16 @@ dependencies:
 devDependencies:
   '@storybook/addon-links':
     specifier: ^10.2.7
-    version: 10.2.7(react@19.2.4)(storybook@10.2.7)
+    version: 10.2.7(react@19.2.4)(storybook@10.2.8)
   '@storybook/addon-onboarding':
     specifier: ^10.2.7
-    version: 10.2.7(storybook@10.2.7)
+    version: 10.2.7(storybook@10.2.8)
   '@storybook/react':
     specifier: 10.2.7
-    version: 10.2.7(react-dom@19.2.4)(react@19.2.4)(storybook@10.2.7)(typescript@5.9.3)
+    version: 10.2.7(react-dom@19.2.4)(react@19.2.4)(storybook@10.2.8)(typescript@5.9.3)
   '@storybook/react-vite':
     specifier: 10.2.7
-    version: 10.2.7(react-dom@19.2.4)(react@19.2.4)(storybook@10.2.7)(typescript@5.9.3)(vite@7.3.1)
+    version: 10.2.7(react-dom@19.2.4)(react@19.2.4)(storybook@10.2.8)(typescript@5.9.3)(vite@7.3.1)
   '@types/react':
     specifier: ^19.2.13
     version: 19.2.13
@@ -38,8 +38,8 @@ devDependencies:
     specifier: ^3.16.3
     version: 3.16.3
   '@typescript-eslint/eslint-plugin':
-    specifier: ^8.54.0
-    version: 8.54.0(@typescript-eslint/parser@8.55.0)(eslint@10.0.0)(typescript@5.9.3)
+    specifier: ^8.55.0
+    version: 8.55.0(@typescript-eslint/parser@8.55.0)(eslint@10.0.0)(typescript@5.9.3)
   '@typescript-eslint/parser':
     specifier: ^8.55.0
     version: 8.55.0(eslint@10.0.0)(typescript@5.9.3)
@@ -77,8 +77,8 @@ devDependencies:
     specifier: ^3.16.3
     version: 3.16.3(react-dom@19.2.4)(react@19.2.4)
   storybook:
-    specifier: ^10.2.7
-    version: 10.2.7(@testing-library/dom@10.4.1)(react-dom@19.2.4)(react@19.2.4)
+    specifier: ^10.2.8
+    version: 10.2.8(@testing-library/dom@10.4.1)(react-dom@19.2.4)(react@19.2.4)
   typescript:
     specifier: ^5.2.2
     version: 5.9.3
@@ -884,7 +884,7 @@ packages:
     resolution: {integrity: sha512-zt6OdqaDoOnJ1ZYsCYGt9YmWzDXl4vQdKTyJev62gFhRGKdx7mcT54V9KIjg+d2wi9EXsPvAPKe7i7WjfVWB8g==}
     dev: true
 
-  /@storybook/addon-links@10.2.7(react@19.2.4)(storybook@10.2.7):
+  /@storybook/addon-links@10.2.7(react@19.2.4)(storybook@10.2.8):
     resolution: {integrity: sha512-j2LUFUraQg3/ovDQU8BRhdwE3bKqC1frmn0E8kg9STM63wMgXMZ+6rz+HhGU64f2jvb2AQCgAgHs6FB1mufzhg==}
     peerDependencies:
       react: ^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0
@@ -895,25 +895,25 @@ packages:
     dependencies:
       '@storybook/global': 5.0.0
       react: 19.2.4
-      storybook: 10.2.7(@testing-library/dom@10.4.1)(react-dom@19.2.4)(react@19.2.4)
+      storybook: 10.2.8(@testing-library/dom@10.4.1)(react-dom@19.2.4)(react@19.2.4)
     dev: true
 
-  /@storybook/addon-onboarding@10.2.7(storybook@10.2.7):
+  /@storybook/addon-onboarding@10.2.7(storybook@10.2.8):
     resolution: {integrity: sha512-itf4l/ctdGBwAtKWHd35tPt/VFBefGZTVpccbV4c5yhe1RV364v+UeGCgtHkA0G5R3R2Y/gdSZ+edOZXbGFKRw==}
     peerDependencies:
       storybook: ^10.2.7
     dependencies:
-      storybook: 10.2.7(@testing-library/dom@10.4.1)(react-dom@19.2.4)(react@19.2.4)
+      storybook: 10.2.8(@testing-library/dom@10.4.1)(react-dom@19.2.4)(react@19.2.4)
     dev: true
 
-  /@storybook/builder-vite@10.2.7(storybook@10.2.7)(vite@7.3.1):
+  /@storybook/builder-vite@10.2.7(storybook@10.2.8)(vite@7.3.1):
     resolution: {integrity: sha512-dh/Oqvwob12oYJoaUkMgXxCGFxR8B+Hb/nACttxSuAZ1InTtXIMBM9GDpBs8QjaT23X/yHJz3dPYyUBbsn/SNA==}
     peerDependencies:
       storybook: ^10.2.7
       vite: ^5.0.0 || ^6.0.0 || ^7.0.0
     dependencies:
-      '@storybook/csf-plugin': 10.2.7(storybook@10.2.7)(vite@7.3.1)
-      storybook: 10.2.7(@testing-library/dom@10.4.1)(react-dom@19.2.4)(react@19.2.4)
+      '@storybook/csf-plugin': 10.2.7(storybook@10.2.8)(vite@7.3.1)
+      storybook: 10.2.8(@testing-library/dom@10.4.1)(react-dom@19.2.4)(react@19.2.4)
       ts-dedent: 2.2.0
       vite: 7.3.1
     transitivePeerDependencies:
@@ -922,7 +922,7 @@ packages:
       - webpack
     dev: true
 
-  /@storybook/csf-plugin@10.2.7(storybook@10.2.7)(vite@7.3.1):
+  /@storybook/csf-plugin@10.2.7(storybook@10.2.8)(vite@7.3.1):
     resolution: {integrity: sha512-10JblhVYXYmz+XjU86kvAV6pdqCLdkgGcARS6ehhR6W98lKGskWhLNgu4KM9BEKa/2roH8je+DmrlX3ugkMEgw==}
     peerDependencies:
       esbuild: '*'
@@ -940,7 +940,7 @@ packages:
       webpack:
         optional: true
     dependencies:
-      storybook: 10.2.7(@testing-library/dom@10.4.1)(react-dom@19.2.4)(react@19.2.4)
+      storybook: 10.2.8(@testing-library/dom@10.4.1)(react-dom@19.2.4)(react@19.2.4)
       unplugin: 2.3.11
       vite: 7.3.1
     dev: true
@@ -959,7 +959,7 @@ packages:
       react-dom: 19.2.4(react@19.2.4)
     dev: true
 
-  /@storybook/react-dom-shim@10.2.7(react-dom@19.2.4)(react@19.2.4)(storybook@10.2.7):
+  /@storybook/react-dom-shim@10.2.7(react-dom@19.2.4)(react@19.2.4)(storybook@10.2.8):
     resolution: {integrity: sha512-TCD46eKy0JlqUU3DZDaJNecen09HjT74NpJjmgpwOyMXrm+Wl/HfshMyn4GZj/rVQfFN90udNp0NzfbBAPbJAQ==}
     peerDependencies:
       react: ^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0
@@ -968,10 +968,10 @@ packages:
     dependencies:
       react: 19.2.4
       react-dom: 19.2.4(react@19.2.4)
-      storybook: 10.2.7(@testing-library/dom@10.4.1)(react-dom@19.2.4)(react@19.2.4)
+      storybook: 10.2.8(@testing-library/dom@10.4.1)(react-dom@19.2.4)(react@19.2.4)
     dev: true
 
-  /@storybook/react-vite@10.2.7(react-dom@19.2.4)(react@19.2.4)(storybook@10.2.7)(typescript@5.9.3)(vite@7.3.1):
+  /@storybook/react-vite@10.2.7(react-dom@19.2.4)(react@19.2.4)(storybook@10.2.8)(typescript@5.9.3)(vite@7.3.1):
     resolution: {integrity: sha512-R8Xwh3RaCsTyr55xv0rYrT4ve+Kw8vGGTzE6IWkHAXjRYXLdETH8JJoAuI75ESbCeUOl7Lj9jvtD9jS3TCoboA==}
     peerDependencies:
       react: ^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0
@@ -981,15 +981,15 @@ packages:
     dependencies:
       '@joshwooding/vite-plugin-react-docgen-typescript': 0.6.3(typescript@5.9.3)(vite@7.3.1)
       '@rollup/pluginutils': 5.3.0
-      '@storybook/builder-vite': 10.2.7(storybook@10.2.7)(vite@7.3.1)
-      '@storybook/react': 10.2.7(react-dom@19.2.4)(react@19.2.4)(storybook@10.2.7)(typescript@5.9.3)
+      '@storybook/builder-vite': 10.2.7(storybook@10.2.8)(vite@7.3.1)
+      '@storybook/react': 10.2.7(react-dom@19.2.4)(react@19.2.4)(storybook@10.2.8)(typescript@5.9.3)
       empathic: 2.0.0
       magic-string: 0.30.21
       react: 19.2.4
       react-docgen: 8.0.2
       react-dom: 19.2.4(react@19.2.4)
       resolve: 1.22.11
-      storybook: 10.2.7(@testing-library/dom@10.4.1)(react-dom@19.2.4)(react@19.2.4)
+      storybook: 10.2.8(@testing-library/dom@10.4.1)(react-dom@19.2.4)(react@19.2.4)
       tsconfig-paths: 4.2.0
       vite: 7.3.1
     transitivePeerDependencies:
@@ -1000,7 +1000,7 @@ packages:
       - webpack
     dev: true
 
-  /@storybook/react@10.2.7(react-dom@19.2.4)(react@19.2.4)(storybook@10.2.7)(typescript@5.9.3):
+  /@storybook/react@10.2.7(react-dom@19.2.4)(react@19.2.4)(storybook@10.2.8)(typescript@5.9.3):
     resolution: {integrity: sha512-SuWzFLNprNNWUWC7o0p1gVNAK1QoDTVdymDo4jeKIUfcMdmzEMzj8zqkCxeStaVLQxqBIvmca3uJHlym8GsVrQ==}
     peerDependencies:
       react: ^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0
@@ -1012,11 +1012,11 @@ packages:
         optional: true
     dependencies:
       '@storybook/global': 5.0.0
-      '@storybook/react-dom-shim': 10.2.7(react-dom@19.2.4)(react@19.2.4)(storybook@10.2.7)
+      '@storybook/react-dom-shim': 10.2.7(react-dom@19.2.4)(react@19.2.4)(storybook@10.2.8)
       react: 19.2.4
       react-docgen: 8.0.2
       react-dom: 19.2.4(react@19.2.4)
-      storybook: 10.2.7(@testing-library/dom@10.4.1)(react-dom@19.2.4)(react@19.2.4)
+      storybook: 10.2.8(@testing-library/dom@10.4.1)(react-dom@19.2.4)(react@19.2.4)
       typescript: 5.9.3
     transitivePeerDependencies:
       - supports-color
@@ -1176,16 +1176,16 @@ packages:
     resolution: {integrity: sha512-hAAP5io/7csFStuOmR782YmTthKBJ9ND3WVL60hcOjvtGFb+HJxH4O5huAcmcZ9v9G8P+JETiZ/G1B8MALnWZQ==}
     engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
     peerDependencies:
-      '@typescript-eslint/parser': ^8.54.0
+      '@typescript-eslint/parser': ^8.55.0
       eslint: ^8.57.0 || ^9.0.0
       typescript: '>=4.8.4 <6.0.0'
     dependencies:
       '@eslint-community/regexpp': 4.12.2
       '@typescript-eslint/parser': 8.55.0(eslint@10.0.0)(typescript@5.9.3)
-      '@typescript-eslint/scope-manager': 8.54.0
-      '@typescript-eslint/type-utils': 8.54.0(eslint@10.0.0)(typescript@5.9.3)
-      '@typescript-eslint/utils': 8.54.0(eslint@10.0.0)(typescript@5.9.3)
-      '@typescript-eslint/visitor-keys': 8.54.0
+      '@typescript-eslint/scope-manager': 8.55.0
+      '@typescript-eslint/type-utils': 8.55.0(eslint@10.0.0)(typescript@5.9.3)
+      '@typescript-eslint/utils': 8.55.0(eslint@10.0.0)(typescript@5.9.3)
+      '@typescript-eslint/visitor-keys': 8.55.0
       eslint: 10.0.0
       ignore: 7.0.5
       natural-compare: 1.4.0
@@ -1311,6 +1311,24 @@ packages:
       - supports-color
     dev: true
 
+  /@typescript-eslint/type-utils@8.55.0(eslint@10.0.0)(typescript@5.9.3):
+    resolution: {integrity: sha512-x1iH2unH4qAt6I37I2CGlsNs+B9WGxurP2uyZLRz6UJoZWDBx9cJL1xVN/FiOmHEONEg6RIufdvyT0TEYIgC5g==}
+    engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
+    peerDependencies:
+      eslint: ^8.57.0 || ^9.0.0
+      typescript: '>=4.8.4 <6.0.0'
+    dependencies:
+      '@typescript-eslint/types': 8.55.0
+      '@typescript-eslint/typescript-estree': 8.55.0(typescript@5.9.3)
+      '@typescript-eslint/utils': 8.55.0(eslint@10.0.0)(typescript@5.9.3)
+      debug: 4.4.3
+      eslint: 10.0.0
+      ts-api-utils: 2.4.0(typescript@5.9.3)
+      typescript: 5.9.3
+    transitivePeerDependencies:
+      - supports-color
+    dev: true
+
   /@typescript-eslint/types@8.54.0:
     resolution: {integrity: sha512-PDUI9R1BVjqu7AUDsRBbKMtwmjWcn4J3le+5LpcFgWULN3LvHC5rkc9gCVxbrsrGmO1jfPybN5s6h4Jy+OnkAA==}
     engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
@@ -1372,6 +1390,23 @@ packages:
       '@typescript-eslint/scope-manager': 8.54.0
       '@typescript-eslint/types': 8.54.0
       '@typescript-eslint/typescript-estree': 8.54.0(typescript@5.9.3)
+      eslint: 10.0.0
+      typescript: 5.9.3
+    transitivePeerDependencies:
+      - supports-color
+    dev: true
+
+  /@typescript-eslint/utils@8.55.0(eslint@10.0.0)(typescript@5.9.3):
+    resolution: {integrity: sha512-BqZEsnPGdYpgyEIkDC1BadNY8oMwckftxBT+C8W0g1iKPdeqKZBtTfnvcq0nf60u7MkjFO8RBvpRGZBPw4L2ow==}
+    engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
+    peerDependencies:
+      eslint: ^8.57.0 || ^9.0.0
+      typescript: '>=4.8.4 <6.0.0'
+    dependencies:
+      '@eslint-community/eslint-utils': 4.9.1(eslint@10.0.0)
+      '@typescript-eslint/scope-manager': 8.55.0
+      '@typescript-eslint/types': 8.55.0
+      '@typescript-eslint/typescript-estree': 8.55.0(typescript@5.9.3)
       eslint: 10.0.0
       typescript: 5.9.3
     transitivePeerDependencies:
@@ -3517,8 +3552,8 @@ packages:
       internal-slot: 1.1.0
     dev: true
 
-  /storybook@10.2.7(@testing-library/dom@10.4.1)(react-dom@19.2.4)(react@19.2.4):
-    resolution: {integrity: sha512-LFKSuZyF6EW2/Kkl5d7CvqgwhXXfuWv+aLBuoc616boLKJ3mxXuea+GxIgfk02NEyTKctJ0QsnSh5pAomf6Qkg==}
+  /storybook@10.2.8(@testing-library/dom@10.4.1)(react-dom@19.2.4)(react@19.2.4):
+    resolution: {integrity: sha512-885uSIn8NQw2ZG7vy84K45lHCOSyz1DVsDV8pHiHQj3J0riCuWLNeO50lK9z98zE8kjhgTtxAAkMTy5nkmNRKQ==}
     hasBin: true
     peerDependencies:
       prettier: ^2 || ^3
