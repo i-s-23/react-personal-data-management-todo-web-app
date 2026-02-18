@@ -12,8 +12,8 @@ dependencies:
     specifier: ^19.2.4
     version: 19.2.4(react@19.2.4)
   styled-components:
-    specifier: ^6.3.9
-    version: 6.3.9(react-dom@19.2.4)(react@19.2.4)
+    specifier: ^6.3.10
+    version: 6.3.10(react-dom@19.2.4)(react@19.2.4)
 
 devDependencies:
   '@storybook/addon-links':
@@ -3486,8 +3486,8 @@ packages:
     engines: {node: '>=12'}
     dev: true
 
-  /styled-components@6.3.9(react-dom@19.2.4)(react@19.2.4):
-    resolution: {integrity: sha512-J72R4ltw0UBVUlEjTzI0gg2STOqlI9JBhQOL4Dxt7aJOnnSesy0qJDn4PYfMCafk9cWOaVg129Pesl5o+DIh0Q==}
+  /styled-components@6.3.10(react-dom@19.2.4)(react@19.2.4):
+    resolution: {integrity: sha512-vX2InL9LGFjpsWEBDbRQdhjl7PxZXzLqKeCxgGFl0x7tC6CYrcWdYgD0GUCU/m2MhhymJDbBTpdF0gwwG98phg==}
     engines: {node: '>= 16'}
     peerDependencies:
       react: '>= 16.8.0'
