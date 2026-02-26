@@ -19,7 +19,7 @@
   "keywords": [],
   "author": "",
   "devDependencies": {
-    "@storybook/addon-links": "^10.2.11",
+    "@storybook/addon-links": "^10.2.13",
     "@storybook/addon-onboarding": "^10.2.11",
     "@storybook/react": "10.2.13",
     "@storybook/react-vite": "10.2.11",
