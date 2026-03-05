@@ -23,8 +23,8 @@ devDependencies:
     specifier: ^10.2.14
     version: 10.2.14(storybook@10.2.15)
   '@storybook/react':
-    specifier: 10.2.14
-    version: 10.2.14(react-dom@19.2.4)(react@19.2.4)(storybook@10.2.15)(typescript@5.9.3)
+    specifier: 10.2.15
+    version: 10.2.15(react-dom@19.2.4)(react@19.2.4)(storybook@10.2.15)(typescript@5.9.3)
   '@storybook/react-vite':
     specifier: 10.2.14
     version: 10.2.14(react-dom@19.2.4)(react@19.2.4)(storybook@10.2.15)(typescript@5.9.3)(vite@7.3.1)
@@ -954,6 +954,18 @@ packages:
       storybook: 10.2.15(@testing-library/dom@10.4.1)(react-dom@19.2.4)(react@19.2.4)
     dev: true
 
+  /@storybook/react-dom-shim@10.2.15(react-dom@19.2.4)(react@19.2.4)(storybook@10.2.15):
+    resolution: {integrity: sha512-rfPwAz0f67ORfKpA0gq9bhDNlDST2CY9X7bjVfOvOHIfaVVjIJ8wTXE8ozBxOXTBbcv0eblRR9Xcm7aRBG8+iA==}
+    peerDependencies:
+      react: ^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0
+      react-dom: ^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0
+      storybook: ^10.2.15
+    dependencies:
+      react: 19.2.4
+      react-dom: 19.2.4(react@19.2.4)
+      storybook: 10.2.15(@testing-library/dom@10.4.1)(react-dom@19.2.4)(react@19.2.4)
+    dev: true
+
   /@storybook/react-vite@10.2.14(react-dom@19.2.4)(react@19.2.4)(storybook@10.2.15)(typescript@5.9.3)(vite@7.3.1):
     resolution: {integrity: sha512-qfHkDjv0ElJFqhXN/uD+fuuMBVOI7xzJbMqLi9I4TKt4645B0P6X7s83oyLgU9y9xQEi4Dr2zSJq0VtNBe+VBg==}
     peerDependencies:
@@ -996,6 +1008,28 @@ packages:
     dependencies:
       '@storybook/global': 5.0.0
       '@storybook/react-dom-shim': 10.2.14(react-dom@19.2.4)(react@19.2.4)(storybook@10.2.15)
+      react: 19.2.4
+      react-docgen: 8.0.2
+      react-dom: 19.2.4(react@19.2.4)
+      storybook: 10.2.15(@testing-library/dom@10.4.1)(react-dom@19.2.4)(react@19.2.4)
+      typescript: 5.9.3
+    transitivePeerDependencies:
+      - supports-color
+    dev: true
+
+  /@storybook/react@10.2.15(react-dom@19.2.4)(react@19.2.4)(storybook@10.2.15)(typescript@5.9.3):
+    resolution: {integrity: sha512-gyreXMjiS1mRiagaGtAqia142hoQ3EDd2nIxwvZu0av/TWpq7Rn6Fh3a9Jdi6Y4psUO+CqGPPur0svgfAD/4+Q==}
+    peerDependencies:
+      react: ^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0
+      react-dom: ^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0
+      storybook: ^10.2.15
+      typescript: '>= 4.9.x'
+    peerDependenciesMeta:
+      typescript:
+        optional: true
+    dependencies:
+      '@storybook/global': 5.0.0
+      '@storybook/react-dom-shim': 10.2.15(react-dom@19.2.4)(react@19.2.4)(storybook@10.2.15)
       react: 19.2.4
       react-docgen: 8.0.2
       react-dom: 19.2.4(react@19.2.4)
