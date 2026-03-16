@@ -23,8 +23,8 @@ devDependencies:
     specifier: ^10.2.17
     version: 10.2.17(storybook@10.2.19)
   '@storybook/react':
-    specifier: 10.2.17
-    version: 10.2.17(react-dom@19.2.4)(react@19.2.4)(storybook@10.2.19)(typescript@5.9.3)
+    specifier: 10.2.19
+    version: 10.2.19(react-dom@19.2.4)(react@19.2.4)(storybook@10.2.19)(typescript@5.9.3)
   '@storybook/react-vite':
     specifier: 10.2.19
     version: 10.2.19(react-dom@19.2.4)(react@19.2.4)(storybook@10.2.19)(typescript@5.9.3)(vite@7.3.1)
@@ -1176,18 +1176,6 @@ packages:
       react-dom: 19.2.4(react@19.2.4)
     dev: true
 
-  /@storybook/react-dom-shim@10.2.17(react-dom@19.2.4)(react@19.2.4)(storybook@10.2.19):
-    resolution: {integrity: sha512-x9Kb7eUSZ1zGsEw/TtWrvs1LwWIdNp8qoOQCgPEjdB07reSJcE8R3+ASWHJThmd4eZf66ZALPJyerejake4Osw==}
-    peerDependencies:
-      react: ^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0
-      react-dom: ^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0
-      storybook: ^10.2.17
-    dependencies:
-      react: 19.2.4
-      react-dom: 19.2.4(react@19.2.4)
-      storybook: 10.2.19(@testing-library/dom@10.4.1)(react-dom@19.2.4)(react@19.2.4)
-    dev: true
-
   /@storybook/react-dom-shim@10.2.19(react-dom@19.2.4)(react@19.2.4)(storybook@10.2.19):
     resolution: {integrity: sha512-BXCEfBGVBRYBTYeBeH/PJsy0Bq5MERe/HiaylR+ah/XrvIr2Z9bkne1J8yYiXCjiyq5HQa7Bj11roz0+vyUaEw==}
     peerDependencies:
@@ -1227,28 +1215,6 @@ packages:
       - supports-color
       - typescript
       - webpack
-    dev: true
-
-  /@storybook/react@10.2.17(react-dom@19.2.4)(react@19.2.4)(storybook@10.2.19)(typescript@5.9.3):
-    resolution: {integrity: sha512-875AVMYil2X9Civil6GFZ8koIzlKxcXbl2eJ7+/GPbhIonTNmwx0qbWPHttjZXUvFuQ4RRtb9KkBwy4TCb/LeA==}
-    peerDependencies:
-      react: ^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0
-      react-dom: ^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0
-      storybook: ^10.2.17
-      typescript: '>= 4.9.x'
-    peerDependenciesMeta:
-      typescript:
-        optional: true
-    dependencies:
-      '@storybook/global': 5.0.0
-      '@storybook/react-dom-shim': 10.2.17(react-dom@19.2.4)(react@19.2.4)(storybook@10.2.19)
-      react: 19.2.4
-      react-docgen: 8.0.2
-      react-dom: 19.2.4(react@19.2.4)
-      storybook: 10.2.19(@testing-library/dom@10.4.1)(react-dom@19.2.4)(react@19.2.4)
-      typescript: 5.9.3
-    transitivePeerDependencies:
-      - supports-color
     dev: true
 
   /@storybook/react@10.2.19(react-dom@19.2.4)(react@19.2.4)(storybook@10.2.19)(typescript@5.9.3):
@@ -3472,24 +3438,6 @@ packages:
       typescript: '>= 4.3.x'
     dependencies:
       typescript: 5.9.3
-    dev: true
-
-  /react-docgen@8.0.2:
-    resolution: {integrity: sha512-+NRMYs2DyTP4/tqWz371Oo50JqmWltR1h2gcdgUMAWZJIAvrd0/SqlCfx7tpzpl/s36rzw6qH2MjoNrxtRNYhA==}
-    engines: {node: ^20.9.0 || >=22}
-    dependencies:
-      '@babel/core': 7.29.0
-      '@babel/traverse': 7.29.0
-      '@babel/types': 7.29.0
-      '@types/babel__core': 7.20.5
-      '@types/babel__traverse': 7.28.0
-      '@types/doctrine': 0.0.9
-      '@types/resolve': 1.20.6
-      doctrine: 3.0.0
-      resolve: 1.22.11
-      strip-indent: 4.1.1
-    transitivePeerDependencies:
-      - supports-color
     dev: true
 
   /react-docgen@8.0.3:
