@@ -26,8 +26,8 @@ devDependencies:
     specifier: 10.2.17
     version: 10.2.17(react-dom@19.2.4)(react@19.2.4)(storybook@10.2.19)(typescript@5.9.3)
   '@storybook/react-vite':
-    specifier: 10.2.17
-    version: 10.2.17(react-dom@19.2.4)(react@19.2.4)(storybook@10.2.19)(typescript@5.9.3)(vite@7.3.1)
+    specifier: 10.2.19
+    version: 10.2.19(react-dom@19.2.4)(react@19.2.4)(storybook@10.2.19)(typescript@5.9.3)(vite@7.3.1)
   '@types/react':
     specifier: ^19.2.14
     version: 19.2.14
@@ -1123,13 +1123,13 @@ packages:
       storybook: 10.2.19(@testing-library/dom@10.4.1)(react-dom@19.2.4)(react@19.2.4)
     dev: true
 
-  /@storybook/builder-vite@10.2.17(storybook@10.2.19)(vite@7.3.1):
-    resolution: {integrity: sha512-m/OBveTLm5ds/tUgHmmbKzgSi/oeCpQwm5rZa49vP2BpAd41Q7ER6TzkOoISzPoNNMAcbVmVc5vn7k6hdbPSHw==}
+  /@storybook/builder-vite@10.2.19(storybook@10.2.19)(vite@7.3.1):
+    resolution: {integrity: sha512-a59xALzM9GeYh6p+wzAeBbDyIe+qyrC4nxS3QNzb5i2ZOhrq1iIpvnDaOWe80NC8mV3IlqUEGY8Uawkf//1Rmg==}
     peerDependencies:
-      storybook: ^10.2.17
-      vite: ^5.0.0 || ^6.0.0 || ^7.0.0
+      storybook: ^10.2.19
+      vite: ^5.0.0 || ^6.0.0 || ^7.0.0 || ^8.0.0
     dependencies:
-      '@storybook/csf-plugin': 10.2.17(storybook@10.2.19)(vite@7.3.1)
+      '@storybook/csf-plugin': 10.2.19(storybook@10.2.19)(vite@7.3.1)
       storybook: 10.2.19(@testing-library/dom@10.4.1)(react-dom@19.2.4)(react@19.2.4)
       ts-dedent: 2.2.0
       vite: 7.3.1
@@ -1139,12 +1139,12 @@ packages:
       - webpack
     dev: true
 
-  /@storybook/csf-plugin@10.2.17(storybook@10.2.19)(vite@7.3.1):
-    resolution: {integrity: sha512-crHH8i/4mwzeXpWRPgwvwX2vjytW42zyzTRySUax5dTU8o9sjk4y+Z9hkGx3Nmu1TvqseS8v1Z20saZr/tQcWw==}
+  /@storybook/csf-plugin@10.2.19(storybook@10.2.19)(vite@7.3.1):
+    resolution: {integrity: sha512-BpjYIOdyQn/Rm6MjUAc5Gl8HlARZrskD/OhUNShiOh2fznb523dHjiE5mbU1kKM/+L1uvRlEqqih40rTx+xCrg==}
     peerDependencies:
       esbuild: '*'
       rollup: '*'
-      storybook: ^10.2.17
+      storybook: ^10.2.19
       vite: '*'
       webpack: '*'
     peerDependenciesMeta:
@@ -1188,22 +1188,34 @@ packages:
       storybook: 10.2.19(@testing-library/dom@10.4.1)(react-dom@19.2.4)(react@19.2.4)
     dev: true
 
-  /@storybook/react-vite@10.2.17(react-dom@19.2.4)(react@19.2.4)(storybook@10.2.19)(typescript@5.9.3)(vite@7.3.1):
-    resolution: {integrity: sha512-E/1hNmxVsjy9l3TuaNufSqkdz8saTJUGEs8GRCjKlF7be2wljIwewUxjAT3efk+bxOCw76ZmqGHk6MnRa3y7Gw==}
+  /@storybook/react-dom-shim@10.2.19(react-dom@19.2.4)(react@19.2.4)(storybook@10.2.19):
+    resolution: {integrity: sha512-BXCEfBGVBRYBTYeBeH/PJsy0Bq5MERe/HiaylR+ah/XrvIr2Z9bkne1J8yYiXCjiyq5HQa7Bj11roz0+vyUaEw==}
     peerDependencies:
       react: ^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0
       react-dom: ^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0
-      storybook: ^10.2.17
-      vite: ^5.0.0 || ^6.0.0 || ^7.0.0
+      storybook: ^10.2.19
+    dependencies:
+      react: 19.2.4
+      react-dom: 19.2.4(react@19.2.4)
+      storybook: 10.2.19(@testing-library/dom@10.4.1)(react-dom@19.2.4)(react@19.2.4)
+    dev: true
+
+  /@storybook/react-vite@10.2.19(react-dom@19.2.4)(react@19.2.4)(storybook@10.2.19)(typescript@5.9.3)(vite@7.3.1):
+    resolution: {integrity: sha512-2/yMKrK4IqMIZicRpPMoIg+foBuWnkaEWt0R4V4hjErDj/SC3D9ov+GUqhjKJ81TegijhKzNpwnSD7Nf87haKw==}
+    peerDependencies:
+      react: ^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0
+      react-dom: ^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0
+      storybook: ^10.2.19
+      vite: ^5.0.0 || ^6.0.0 || ^7.0.0 || ^8.0.0
     dependencies:
       '@joshwooding/vite-plugin-react-docgen-typescript': 0.6.4(typescript@5.9.3)(vite@7.3.1)
       '@rollup/pluginutils': 5.3.0
-      '@storybook/builder-vite': 10.2.17(storybook@10.2.19)(vite@7.3.1)
-      '@storybook/react': 10.2.17(react-dom@19.2.4)(react@19.2.4)(storybook@10.2.19)(typescript@5.9.3)
+      '@storybook/builder-vite': 10.2.19(storybook@10.2.19)(vite@7.3.1)
+      '@storybook/react': 10.2.19(react-dom@19.2.4)(react@19.2.4)(storybook@10.2.19)(typescript@5.9.3)
       empathic: 2.0.0
       magic-string: 0.30.21
       react: 19.2.4
-      react-docgen: 8.0.2
+      react-docgen: 8.0.3
       react-dom: 19.2.4(react@19.2.4)
       resolve: 1.22.11
       storybook: 10.2.19(@testing-library/dom@10.4.1)(react-dom@19.2.4)(react@19.2.4)
@@ -1232,6 +1244,28 @@ packages:
       '@storybook/react-dom-shim': 10.2.17(react-dom@19.2.4)(react@19.2.4)(storybook@10.2.19)
       react: 19.2.4
       react-docgen: 8.0.2
+      react-dom: 19.2.4(react@19.2.4)
+      storybook: 10.2.19(@testing-library/dom@10.4.1)(react-dom@19.2.4)(react@19.2.4)
+      typescript: 5.9.3
+    transitivePeerDependencies:
+      - supports-color
+    dev: true
+
+  /@storybook/react@10.2.19(react-dom@19.2.4)(react@19.2.4)(storybook@10.2.19)(typescript@5.9.3):
+    resolution: {integrity: sha512-gm2qxLyYSsGp7fee5i+d8jSVUKMla8yRaTJ1wxPEnyaJMd0QUu6U2v3p2rW7PH1DWop3D6NqWOY8kmZjmSZKlA==}
+    peerDependencies:
+      react: ^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0
+      react-dom: ^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0
+      storybook: ^10.2.19
+      typescript: '>= 4.9.x'
+    peerDependenciesMeta:
+      typescript:
+        optional: true
+    dependencies:
+      '@storybook/global': 5.0.0
+      '@storybook/react-dom-shim': 10.2.19(react-dom@19.2.4)(react@19.2.4)(storybook@10.2.19)
+      react: 19.2.4
+      react-docgen: 8.0.3
       react-dom: 19.2.4(react@19.2.4)
       storybook: 10.2.19(@testing-library/dom@10.4.1)(react-dom@19.2.4)(react@19.2.4)
       typescript: 5.9.3
@@ -3144,8 +3178,8 @@ packages:
     resolution: {integrity: sha512-CdzqowRJCeLU72bHvWqwRBBlLcMEtIvGrlvef74kMnV2AolS9Y8xUv1I0U/MNAWMhBlKIoyuEgoJ0t/bbwHbLQ==}
     dev: true
 
-  /lru-cache@11.2.6:
-    resolution: {integrity: sha512-ESL2CrkS/2wTPfuend7Zhkzo2u0daGJ/A2VucJOgQ/C48S/zB8MMeMHSGKYpXhIjbPxfuezITkaBH1wqv00DDQ==}
+  /lru-cache@11.2.7:
+    resolution: {integrity: sha512-aY/R+aEsRelme17KGQa/1ZSIpLpNYYrhcrepKTZgE+W3WM16YMCaPwOHLHsmopZHELU0Ojin1lPVxKR0MihncA==}
     engines: {node: 20 || >=22}
     dev: true
 
@@ -3344,7 +3378,7 @@ packages:
     resolution: {integrity: sha512-3O/iVVsJAPsOnpwWIeD+d6z/7PmqApyQePUtCndjatj/9I5LylHvt5qluFaBT3I5h3r1ejfR056c+FCv+NnNXg==}
     engines: {node: 18 || 20 || >=22}
     dependencies:
-      lru-cache: 11.2.6
+      lru-cache: 11.2.7
       minipass: 7.1.3
     dev: true
 
@@ -3425,6 +3459,24 @@ packages:
 
   /react-docgen@8.0.2:
     resolution: {integrity: sha512-+NRMYs2DyTP4/tqWz371Oo50JqmWltR1h2gcdgUMAWZJIAvrd0/SqlCfx7tpzpl/s36rzw6qH2MjoNrxtRNYhA==}
+    engines: {node: ^20.9.0 || >=22}
+    dependencies:
+      '@babel/core': 7.29.0
+      '@babel/traverse': 7.29.0
+      '@babel/types': 7.29.0
+      '@types/babel__core': 7.20.5
+      '@types/babel__traverse': 7.28.0
+      '@types/doctrine': 0.0.9
+      '@types/resolve': 1.20.6
+      doctrine: 3.0.0
+      resolve: 1.22.11
+      strip-indent: 4.1.1
+    transitivePeerDependencies:
+      - supports-color
+    dev: true
+
+  /react-docgen@8.0.3:
+    resolution: {integrity: sha512-aEZ9qP+/M+58x2qgfSFEWH1BxLyHe5+qkLNJOZQb5iGS017jpbRnoKhNRrXPeA6RfBrZO5wZrT9DMC1UqE1f1w==}
     engines: {node: ^20.9.0 || >=22}
     dependencies:
       '@babel/core': 7.29.0
