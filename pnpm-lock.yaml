@@ -17,8 +17,8 @@ dependencies:
 
 devDependencies:
   '@storybook/addon-links':
-    specifier: ^10.3.5
-    version: 10.3.5(react@19.2.5)(storybook@10.3.6)
+    specifier: ^10.3.6
+    version: 10.3.6(react@19.2.5)(storybook@10.3.6)
   '@storybook/addon-onboarding':
     specifier: ^10.3.5
     version: 10.3.5(storybook@10.3.6)
@@ -822,11 +822,11 @@ packages:
     resolution: {integrity: sha512-zt6OdqaDoOnJ1ZYsCYGt9YmWzDXl4vQdKTyJev62gFhRGKdx7mcT54V9KIjg+d2wi9EXsPvAPKe7i7WjfVWB8g==}
     dev: true
 
-  /@storybook/addon-links@10.3.5(react@19.2.5)(storybook@10.3.6):
-    resolution: {integrity: sha512-Xe2wCGZ+hpZ0cDqAIBHk+kPc8nODNbu585ghd5bLrlYJMDVXoNM/fIlkrLgjIDVbfpgeJLUEg7vldJrn+FyOLw==}
+  /@storybook/addon-links@10.3.6(react@19.2.5)(storybook@10.3.6):
+    resolution: {integrity: sha512-tv9Xd68qRGBAvEubaxNo3FuFq4GwuMiBriD+gLGuFK0+/u3cnkuA264aoR1v6YCH3sT3er3+MBimuyKM3jLDxg==}
     peerDependencies:
       react: ^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0
-      storybook: ^10.3.5
+      storybook: ^10.3.6
     peerDependenciesMeta:
       react:
         optional: true
