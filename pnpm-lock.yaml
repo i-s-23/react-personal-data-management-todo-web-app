@@ -26,8 +26,8 @@ devDependencies:
     specifier: ^10.4.0
     version: 10.4.0(storybook@10.4.1)
   '@storybook/react':
-    specifier: 10.4.0
-    version: 10.4.0(@types/react-dom@19.2.3)(@types/react@19.2.15)(react-dom@19.2.6)(react@19.2.6)(storybook@10.4.1)(typescript@6.0.3)
+    specifier: 10.4.1
+    version: 10.4.1(@types/react-dom@19.2.3)(@types/react@19.2.15)(react-dom@19.2.6)(react@19.2.6)(storybook@10.4.1)(typescript@6.0.3)
   '@storybook/react-vite':
     specifier: 10.4.0
     version: 10.4.0(@types/react-dom@19.2.3)(@types/react@19.2.15)(react-dom@19.2.6)(react@19.2.6)(storybook@10.4.1)(typescript@6.0.3)(vite@8.0.14)
@@ -103,6 +103,15 @@ packages:
     engines: {node: '>=6.9.0'}
     dependencies:
       '@babel/helper-validator-identifier': 7.28.5
+      js-tokens: 4.0.0
+      picocolors: 1.1.1
+    dev: true
+
+  /@babel/code-frame@7.29.7:
+    resolution: {integrity: sha512-Aup7aUOfpbAUg2ROOJN6Iw5f9DMBlzu0mIkm/malLQFN/YQgO48wCj0Kxa3sEHJvPVFg7siR+qRInwXd2qhQKw==}
+    engines: {node: '>=6.9.0'}
+    dependencies:
+      '@babel/helper-validator-identifier': 7.29.7
       js-tokens: 4.0.0
       picocolors: 1.1.1
     dev: true
@@ -196,6 +205,11 @@ packages:
     engines: {node: '>=6.9.0'}
     dev: true
 
+  /@babel/helper-validator-identifier@7.29.7:
+    resolution: {integrity: sha512-qehxGkRj55h/ff8EMaJ+cYhyaKlHIxqYDn682wQD7RNp9UujOQsHog2uS0r2vzr4pW+sXf90NeeayjcNaX3fFg==}
+    engines: {node: '>=6.9.0'}
+    dev: true
+
   /@babel/helper-validator-option@7.27.1:
     resolution: {integrity: sha512-YvjJow9FxbhFFKDSuFnVCe2WxXk1zWc22fFePVNEaWJEu8IrZVlda6N0uHwzZrUM1il7NC9Mlp4MaJYbYd9JSg==}
     engines: {node: '>=6.9.0'}
@@ -217,8 +231,8 @@ packages:
       '@babel/types': 7.29.0
     dev: true
 
-  /@babel/runtime@7.29.2:
-    resolution: {integrity: sha512-JiDShH45zKHWyGe4ZNVRrCjBz8Nh9TMmZG1kh4QTK8hCBTWBi8Da+i7s1fJw7/lYpM4ccepSNfqzZ/QvABBi5g==}
+  /@babel/runtime@7.29.7:
+    resolution: {integrity: sha512-Nq8OhGWiZIZGV6hLHoyAKLLcJihP/xFeBMGJoUrxTX2psI8dCifzLhZISFb+VWS3wFMRDmCGw5R+dOySCqPLhw==}
     engines: {node: '>=6.9.0'}
     dev: true
 
@@ -1311,6 +1325,27 @@ packages:
       storybook: 10.4.1(@emnapi/core@1.10.0)(@emnapi/runtime@1.10.0)(@testing-library/dom@10.4.1)(@types/react@19.2.15)(react-dom@19.2.6)(react@19.2.6)
     dev: true
 
+  /@storybook/react-dom-shim@10.4.1(@types/react-dom@19.2.3)(@types/react@19.2.15)(react-dom@19.2.6)(react@19.2.6)(storybook@10.4.1):
+    resolution: {integrity: sha512-6QFqfDNH4DMrt7yHKRfpqRopsVUc/Az+sXIdJ39IetYnHUxL3nW4NVaPc6uy/8Qi8urzUyEXL/nn7cpSIP2aPQ==}
+    peerDependencies:
+      '@types/react': ^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0
+      '@types/react-dom': ^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0
+      react: ^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0
+      react-dom: ^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0
+      storybook: ^10.4.1
+    peerDependenciesMeta:
+      '@types/react':
+        optional: true
+      '@types/react-dom':
+        optional: true
+    dependencies:
+      '@types/react': 19.2.15
+      '@types/react-dom': 19.2.3(@types/react@19.2.15)
+      react: 19.2.6
+      react-dom: 19.2.6(react@19.2.6)
+      storybook: 10.4.1(@emnapi/core@1.10.0)(@emnapi/runtime@1.10.0)(@testing-library/dom@10.4.1)(@types/react@19.2.15)(react-dom@19.2.6)(react@19.2.6)
+    dev: true
+
   /@storybook/react-vite@10.4.0(@types/react-dom@19.2.3)(@types/react@19.2.15)(react-dom@19.2.6)(react@19.2.6)(storybook@10.4.1)(typescript@6.0.3)(vite@8.0.14):
     resolution: {integrity: sha512-k7Lt5Pm9x2N2m56e+99fMo/hMzmiOpmwmxYALGzA0phZCTYalEQRB953TdpVIOQ0V5tlYRhe2VSpVe64/9RcTA==}
     peerDependencies:
@@ -1373,12 +1408,43 @@ packages:
       - supports-color
     dev: true
 
+  /@storybook/react@10.4.1(@types/react-dom@19.2.3)(@types/react@19.2.15)(react-dom@19.2.6)(react@19.2.6)(storybook@10.4.1)(typescript@6.0.3):
+    resolution: {integrity: sha512-WuYz4NaUk4gmFAMliSpCbV8w6jP5OY9juBfw1huwzu2S/k5FhnVXwmrUaL0fmf3Bq/7NgkzmBBbZr6I6LuHayQ==}
+    peerDependencies:
+      '@types/react': ^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0
+      '@types/react-dom': ^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0
+      react: ^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0
+      react-dom: ^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0
+      storybook: ^10.4.1
+      typescript: '>= 4.9.x'
+    peerDependenciesMeta:
+      '@types/react':
+        optional: true
+      '@types/react-dom':
+        optional: true
+      typescript:
+        optional: true
+    dependencies:
+      '@storybook/global': 5.0.0
+      '@storybook/react-dom-shim': 10.4.1(@types/react-dom@19.2.3)(@types/react@19.2.15)(react-dom@19.2.6)(react@19.2.6)(storybook@10.4.1)
+      '@types/react': 19.2.15
+      '@types/react-dom': 19.2.3(@types/react@19.2.15)
+      react: 19.2.6
+      react-docgen: 8.0.3
+      react-docgen-typescript: 2.4.0(typescript@6.0.3)
+      react-dom: 19.2.6(react@19.2.6)
+      storybook: 10.4.1(@emnapi/core@1.10.0)(@emnapi/runtime@1.10.0)(@testing-library/dom@10.4.1)(@types/react@19.2.15)(react-dom@19.2.6)(react@19.2.6)
+      typescript: 6.0.3
+    transitivePeerDependencies:
+      - supports-color
+    dev: true
+
   /@testing-library/dom@10.4.1:
     resolution: {integrity: sha512-o4PXJQidqJl82ckFaXUeoAW+XysPLauYI43Abki5hABd853iMhitooc6znOnczgbTYmEP6U6/y1ZyKAIsvMKGg==}
     engines: {node: '>=18'}
     dependencies:
-      '@babel/code-frame': 7.29.0
-      '@babel/runtime': 7.29.2
+      '@babel/code-frame': 7.29.7
+      '@babel/runtime': 7.29.7
       '@types/aria-query': 5.0.4
       aria-query: 5.3.0
       dom-accessibility-api: 0.5.16
