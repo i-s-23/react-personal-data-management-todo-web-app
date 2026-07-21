@@ -20,7 +20,7 @@
   "author": "",
   "devDependencies": {
     "@storybook/addon-links": "^10.5.0",
-    "@storybook/addon-onboarding": "^10.5.0",
+    "@storybook/addon-onboarding": "^10.5.3",
     "@storybook/react": "10.5.0",
     "@storybook/react-vite": "10.5.0",
     "@types/react": "^19.2.17",
