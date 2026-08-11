@@ -23,8 +23,8 @@ devDependencies:
     specifier: ^10.5.7
     version: 10.5.7(@types/react@19.2.18)(react@19.2.8)(storybook@10.5.7)
   '@storybook/addon-onboarding':
-    specifier: ^10.5.5
-    version: 10.5.5(storybook@10.5.7)
+    specifier: ^10.5.7
+    version: 10.5.7(storybook@10.5.7)
   '@storybook/react':
     specifier: 10.5.7
     version: 10.5.7(@types/react-dom@19.2.4)(@types/react@19.2.18)(react-dom@19.2.8)(react@19.2.8)(storybook@10.5.7)(typescript@6.0.3)
@@ -1223,10 +1223,10 @@ packages:
       storybook: 10.5.7(@types/react@19.2.18)(react@19.2.8)
     dev: true
 
-  /@storybook/addon-onboarding@10.5.5(storybook@10.5.7):
-    resolution: {integrity: sha512-QF8mn5QDJdY1LI/RqpxlruaETrPspVFVMRl0oFLSYOIQENIKLY+9Jy48zBkEeiy2vVY8aTNeWdkrnFpDc9G2qA==}
+  /@storybook/addon-onboarding@10.5.7(storybook@10.5.7):
+    resolution: {integrity: sha512-GDssSoWmmGnz6OnUvAofMcrUuTMD53Y2rnbshjXvhtPnjKw4dufXFjo6C7yZQ6vyoNzTS9HyQwCHlxlhyCKJjQ==}
     peerDependencies:
-      storybook: ^10.5.5
+      storybook: ^10.5.7
     dependencies:
       storybook: 10.5.7(@types/react@19.2.18)(react@19.2.8)
     dev: true
