@@ -15,16 +15,16 @@ jobs:
         uses: dependabot/fetch-metadata@v3.1.0
         with:
           github-token: ${{ github.token }}
-      - name: Skip non-patch updates
-        if: ${{ steps.metadata.outputs.update-type != 'version-update:semver-patch' }}
-        run: echo "update-type=${{ steps.metadata.outputs.update-type }} のため自動マージをスキップします（patch のみ対象）"
+      - name: Skip major updates
+        if: ${{ steps.metadata.outputs.update-type == 'version-update:semver-major' }}
+        run: echo "update-type=${{ steps.metadata.outputs.update-type }} のため自動マージをスキップします（major は対象外）"
       - name: Checkout PR branch
-        if: ${{ steps.metadata.outputs.update-type == 'version-update:semver-patch' }}
+        if: ${{ steps.metadata.outputs.update-type != 'version-update:semver-major' }}
         uses: actions/checkout@v7
         with:
           ref: ${{ github.head_ref }}
       - name: Sync with main and resolve conflicts
-        if: ${{ steps.metadata.outputs.update-type == 'version-update:semver-patch' }}
+        if: ${{ steps.metadata.outputs.update-type != 'version-update:semver-major' }}
         id: sync
         run: |
           git config user.email "github-actions[bot]@users.noreply.github.com"
@@ -52,8 +52,8 @@ jobs:
         env:
           PR_URL: ${{github.event.pull_request.html_url}}
           GITHUB_TOKEN: ${{ github.token }}
-      - name: Auto-merge (patch only)
-        if: ${{ steps.metadata.outputs.update-type == 'version-update:semver-patch' && steps.sync.outputs.pushed != 'true' }}
+      - name: Auto-merge (patch/minor)
+        if: ${{ steps.metadata.outputs.update-type != 'version-update:semver-major' && steps.sync.outputs.pushed != 'true' }}
         run: gh pr merge --merge "$PR_URL"
         env:
           PR_URL: ${{github.event.pull_request.html_url}}
